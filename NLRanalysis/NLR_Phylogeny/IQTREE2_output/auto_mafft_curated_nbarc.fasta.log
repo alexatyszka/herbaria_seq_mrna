@@ -1,0 +1,1398 @@
+IQ-TREE multicore version 2.0.3 for Mac OS X 64-bit built Dec 19 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    N116509 (AVX2, FMA3, 8 GB RAM)
+Command: iqtree -s auto_mafft_curated_nbarc.fasta -st AA -m TEST -bb 1000 -alrt 1000
+Seed:    508031 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jul 26 11:56:49 2024
+Kernel:  AVX+FMA - 1 threads (20 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 20 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file auto_mafft_curated_nbarc.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 690 sequences with 236 columns, 236 distinct patterns
+216 parsimony-informative, 10 singleton sites, 10 constant sites
+WARNING: Some sequence names are changed as follows:
+DAL192@TRINITY_DN3691_c0_g1_i9_p1 -> DAL192_TRINITY_DN3691_c0_g1_i9_p1
+DAL192@TRINITY_DN1960_c0_g1_i5_p1 -> DAL192_TRINITY_DN1960_c0_g1_i5_p1
+DAL192@TRINITY_DN4649_c0_g1_i3_p1 -> DAL192_TRINITY_DN4649_c0_g1_i3_p1
+DAL192@TRINITY_DN4946_c0_g2_i1_p1 -> DAL192_TRINITY_DN4946_c0_g2_i1_p1
+DAL192@TRINITY_DN451_c0_g1_i22_p1 -> DAL192_TRINITY_DN451_c0_g1_i22_p1
+DAL192@TRINITY_DN7555_c1_g3_i1_p1 -> DAL192_TRINITY_DN7555_c1_g3_i1_p1
+DAL192@TRINITY_DN7620_c1_g2_i1_p1 -> DAL192_TRINITY_DN7620_c1_g2_i1_p1
+DAL192@TRINITY_DN7999_c0_g1_i1_p1 -> DAL192_TRINITY_DN7999_c0_g1_i1_p1
+DAL192@TRINITY_DN54686_c0_g1_i1_p1 -> DAL192_TRINITY_DN54686_c0_g1_i1_p1
+DAL192@TRINITY_DN3828_c0_g1_i4_p1 -> DAL192_TRINITY_DN3828_c0_g1_i4_p1
+DAL192@TRINITY_DN7584_c0_g1_i1_p1 -> DAL192_TRINITY_DN7584_c0_g1_i1_p1
+DAL192@TRINITY_DN66060_c0_g1_i1_p1 -> DAL192_TRINITY_DN66060_c0_g1_i1_p1
+DAL192@TRINITY_DN5534_c0_g1_i10_p1 -> DAL192_TRINITY_DN5534_c0_g1_i10_p1
+DAL192@TRINITY_DN7247_c0_g1_i4_p1 -> DAL192_TRINITY_DN7247_c0_g1_i4_p1
+DAL192@TRINITY_DN9090_c0_g1_i1_p1 -> DAL192_TRINITY_DN9090_c0_g1_i1_p1
+DAL192@TRINITY_DN6600_c2_g1_i2_p1 -> DAL192_TRINITY_DN6600_c2_g1_i2_p1
+DAL192@TRINITY_DN12508_c0_g1_i3_p1 -> DAL192_TRINITY_DN12508_c0_g1_i3_p1
+DAL192@TRINITY_DN5764_c0_g1_i2_p1 -> DAL192_TRINITY_DN5764_c0_g1_i2_p1
+DAL192@TRINITY_DN1488_c0_g2_i2_p1 -> DAL192_TRINITY_DN1488_c0_g2_i2_p1
+DAL192@TRINITY_DN207_c0_g3_i1_p1 -> DAL192_TRINITY_DN207_c0_g3_i1_p1
+DAL192@TRINITY_DN73667_c0_g1_i1_p1 -> DAL192_TRINITY_DN73667_c0_g1_i1_p1
+DAL192@TRINITY_DN207_c0_g1_i2_p1 -> DAL192_TRINITY_DN207_c0_g1_i2_p1
+DAL192@TRINITY_DN75094_c0_g1_i1_p1 -> DAL192_TRINITY_DN75094_c0_g1_i1_p1
+DAL192@TRINITY_DN34116_c0_g1_i1_p1 -> DAL192_TRINITY_DN34116_c0_g1_i1_p1
+DAL192@TRINITY_DN5764_c0_g1_i9_p1 -> DAL192_TRINITY_DN5764_c0_g1_i9_p1
+DAL192@TRINITY_DN5666_c0_g1_i1_p1 -> DAL192_TRINITY_DN5666_c0_g1_i1_p1
+DAL192@TRINITY_DN2341_c0_g1_i5_p1 -> DAL192_TRINITY_DN2341_c0_g1_i5_p1
+DAL192@TRINITY_DN5667_c0_g1_i1_p1 -> DAL192_TRINITY_DN5667_c0_g1_i1_p1
+DAL192@TRINITY_DN4042_c0_g1_i4_p1 -> DAL192_TRINITY_DN4042_c0_g1_i4_p1
+DAL192@TRINITY_DN6277_c0_g1_i7_p1 -> DAL192_TRINITY_DN6277_c0_g1_i7_p1
+DAL192@TRINITY_DN6600_c2_g2_i6_p1 -> DAL192_TRINITY_DN6600_c2_g2_i6_p1
+DAL192@TRINITY_DN887_c0_g1_i10_p1 -> DAL192_TRINITY_DN887_c0_g1_i10_p1
+DAL193@TRINITY_DN13018_c0_g1_i1_p1 -> DAL193_TRINITY_DN13018_c0_g1_i1_p1
+DAL193@TRINITY_DN9560_c0_g2_i4_p1 -> DAL193_TRINITY_DN9560_c0_g2_i4_p1
+DAL193@TRINITY_DN9560_c0_g2_i5_p1 -> DAL193_TRINITY_DN9560_c0_g2_i5_p1
+DAL193@TRINITY_DN13184_c1_g2_i1_p1 -> DAL193_TRINITY_DN13184_c1_g2_i1_p1
+DAL193@TRINITY_DN9560_c0_g1_i3_p1 -> DAL193_TRINITY_DN9560_c0_g1_i3_p1
+DAL193@TRINITY_DN5126_c0_g2_i1_p1 -> DAL193_TRINITY_DN5126_c0_g2_i1_p1
+DAL193@TRINITY_DN6890_c0_g1_i3_p1 -> DAL193_TRINITY_DN6890_c0_g1_i3_p1
+DAL193@TRINITY_DN10390_c1_g2_i3_p1 -> DAL193_TRINITY_DN10390_c1_g2_i3_p1
+DAL193@TRINITY_DN55687_c0_g1_i2_p1 -> DAL193_TRINITY_DN55687_c0_g1_i2_p1
+DAL193@TRINITY_DN18045_c0_g1_i1_p1 -> DAL193_TRINITY_DN18045_c0_g1_i1_p1
+DAL193@TRINITY_DN10602_c0_g2_i5_p1 -> DAL193_TRINITY_DN10602_c0_g2_i5_p1
+DAL193@TRINITY_DN10602_c0_g2_i1_p1 -> DAL193_TRINITY_DN10602_c0_g2_i1_p1
+DAL193@TRINITY_DN10602_c0_g1_i4_p1 -> DAL193_TRINITY_DN10602_c0_g1_i4_p1
+DAL193@TRINITY_DN595_c0_g1_i10_p1 -> DAL193_TRINITY_DN595_c0_g1_i10_p1
+DAL193@TRINITY_DN83054_c0_g1_i2_p1 -> DAL193_TRINITY_DN83054_c0_g1_i2_p1
+DAL195@TRINITY_DN9332_c0_g1_i1_p1 -> DAL195_TRINITY_DN9332_c0_g1_i1_p1
+DAL195@TRINITY_DN2496_c0_g1_i8_p1 -> DAL195_TRINITY_DN2496_c0_g1_i8_p1
+DAL195@TRINITY_DN2496_c0_g1_i9_p1 -> DAL195_TRINITY_DN2496_c0_g1_i9_p1
+DAL195@TRINITY_DN2496_c0_g1_i10_p1 -> DAL195_TRINITY_DN2496_c0_g1_i10_p1
+DAL195@TRINITY_DN2496_c0_g1_i6_p1 -> DAL195_TRINITY_DN2496_c0_g1_i6_p1
+DAL195@TRINITY_DN8121_c0_g2_i5_p1 -> DAL195_TRINITY_DN8121_c0_g2_i5_p1
+DAL195@TRINITY_DN3031_c0_g1_i8_p1 -> DAL195_TRINITY_DN3031_c0_g1_i8_p1
+DAL195@TRINITY_DN15684_c0_g1_i1_p1 -> DAL195_TRINITY_DN15684_c0_g1_i1_p1
+DAL195@TRINITY_DN4428_c0_g1_i1_p1 -> DAL195_TRINITY_DN4428_c0_g1_i1_p1
+DAL212@TRINITY_DN5518_c0_g1_i1_p1 -> DAL212_TRINITY_DN5518_c0_g1_i1_p1
+DAL212@TRINITY_DN2451_c0_g1_i2_p1 -> DAL212_TRINITY_DN2451_c0_g1_i2_p1
+DAL212@TRINITY_DN2451_c0_g2_i1_p1 -> DAL212_TRINITY_DN2451_c0_g2_i1_p1
+DAL212@TRINITY_DN11205_c0_g1_i2_p1 -> DAL212_TRINITY_DN11205_c0_g1_i2_p1
+DAL212@TRINITY_DN6838_c0_g2_i2_p1 -> DAL212_TRINITY_DN6838_c0_g2_i2_p1
+DAL212@TRINITY_DN6838_c0_g2_i3_p1 -> DAL212_TRINITY_DN6838_c0_g2_i3_p1
+DAL212@TRINITY_DN6212_c0_g1_i6_p1 -> DAL212_TRINITY_DN6212_c0_g1_i6_p1
+DAL212@TRINITY_DN6716_c0_g1_i8_p1 -> DAL212_TRINITY_DN6716_c0_g1_i8_p1
+DAL212@TRINITY_DN10975_c0_g1_i2_p1 -> DAL212_TRINITY_DN10975_c0_g1_i2_p1
+DAL212@TRINITY_DN6435_c0_g1_i53_p1 -> DAL212_TRINITY_DN6435_c0_g1_i53_p1
+DAL212@TRINITY_DN4377_c0_g1_i2_p1 -> DAL212_TRINITY_DN4377_c0_g1_i2_p1
+DAL212@TRINITY_DN9848_c0_g1_i2_p1 -> DAL212_TRINITY_DN9848_c0_g1_i2_p1
+DAL212@TRINITY_DN6716_c0_g4_i1_p1 -> DAL212_TRINITY_DN6716_c0_g4_i1_p1
+DAL212@TRINITY_DN7061_c0_g1_i4_p1 -> DAL212_TRINITY_DN7061_c0_g1_i4_p1
+DAL212@TRINITY_DN7138_c0_g1_i1_p1 -> DAL212_TRINITY_DN7138_c0_g1_i1_p1
+DAL212@TRINITY_DN11515_c0_g1_i2_p1 -> DAL212_TRINITY_DN11515_c0_g1_i2_p1
+DAL212@TRINITY_DN9379_c0_g1_i5_p1 -> DAL212_TRINITY_DN9379_c0_g1_i5_p1
+DAL212@TRINITY_DN9379_c0_g1_i1_p1 -> DAL212_TRINITY_DN9379_c0_g1_i1_p1
+DAL212@TRINITY_DN2655_c0_g1_i17_p1 -> DAL212_TRINITY_DN2655_c0_g1_i17_p1
+DAL212@TRINITY_DN5560_c0_g4_i1_p1 -> DAL212_TRINITY_DN5560_c0_g4_i1_p1
+DAL212@TRINITY_DN9795_c0_g1_i1_p1 -> DAL212_TRINITY_DN9795_c0_g1_i1_p1
+DAL212@TRINITY_DN7618_c0_g1_i1_p1 -> DAL212_TRINITY_DN7618_c0_g1_i1_p1
+DAL212@TRINITY_DN3136_c1_g2_i5_p1 -> DAL212_TRINITY_DN3136_c1_g2_i5_p1
+DAL212@TRINITY_DN3136_c1_g2_i1_p1 -> DAL212_TRINITY_DN3136_c1_g2_i1_p1
+DAL218@TRINITY_DN10768_c0_g1_i2_p1 -> DAL218_TRINITY_DN10768_c0_g1_i2_p1
+DAL218@TRINITY_DN18293_c0_g1_i2_p1 -> DAL218_TRINITY_DN18293_c0_g1_i2_p1
+DAL218@TRINITY_DN1312_c1_g1_i2_p1 -> DAL218_TRINITY_DN1312_c1_g1_i2_p1
+DAL218@TRINITY_DN12498_c0_g1_i3_p1 -> DAL218_TRINITY_DN12498_c0_g1_i3_p1
+DAL218@TRINITY_DN7574_c0_g1_i6_p1 -> DAL218_TRINITY_DN7574_c0_g1_i6_p1
+DAL218@TRINITY_DN12996_c0_g1_i2_p1 -> DAL218_TRINITY_DN12996_c0_g1_i2_p1
+DAL218@TRINITY_DN3447_c0_g2_i8_p1 -> DAL218_TRINITY_DN3447_c0_g2_i8_p1
+DAL218@TRINITY_DN26743_c0_g1_i1_p1 -> DAL218_TRINITY_DN26743_c0_g1_i1_p1
+DAL218@TRINITY_DN6240_c0_g3_i1_p1 -> DAL218_TRINITY_DN6240_c0_g3_i1_p1
+DAL218@TRINITY_DN5211_c1_g1_i10_p1 -> DAL218_TRINITY_DN5211_c1_g1_i10_p1
+DAL218@TRINITY_DN14164_c0_g1_i1_p1 -> DAL218_TRINITY_DN14164_c0_g1_i1_p1
+DAL218@TRINITY_DN12682_c0_g1_i5_p1 -> DAL218_TRINITY_DN12682_c0_g1_i5_p1
+DAL218@TRINITY_DN67535_c0_g1_i1_p1 -> DAL218_TRINITY_DN67535_c0_g1_i1_p1
+DAL218@TRINITY_DN18701_c0_g1_i1_p1 -> DAL218_TRINITY_DN18701_c0_g1_i1_p1
+DAL224@TRINITY_DN787_c1_g1_i3_p1 -> DAL224_TRINITY_DN787_c1_g1_i3_p1
+DAL224@TRINITY_DN9972_c0_g1_i5_p1 -> DAL224_TRINITY_DN9972_c0_g1_i5_p1
+DAL224@TRINITY_DN5094_c0_g1_i3_p1 -> DAL224_TRINITY_DN5094_c0_g1_i3_p1
+DAL224@TRINITY_DN842_c2_g1_i2_p1 -> DAL224_TRINITY_DN842_c2_g1_i2_p1
+DAL224@TRINITY_DN5406_c0_g4_i1_p1 -> DAL224_TRINITY_DN5406_c0_g4_i1_p1
+DAL224@TRINITY_DN7168_c0_g3_i1_p1 -> DAL224_TRINITY_DN7168_c0_g3_i1_p1
+DAL224@TRINITY_DN20229_c1_g1_i1_p1 -> DAL224_TRINITY_DN20229_c1_g1_i1_p1
+DAL224@TRINITY_DN1421_c0_g1_i5_p1 -> DAL224_TRINITY_DN1421_c0_g1_i5_p1
+DAL224@TRINITY_DN34911_c0_g1_i1_p1 -> DAL224_TRINITY_DN34911_c0_g1_i1_p1
+DAL224@TRINITY_DN71009_c0_g1_i1_p1 -> DAL224_TRINITY_DN71009_c0_g1_i1_p1
+DAL224@TRINITY_DN17646_c0_g2_i1_p1 -> DAL224_TRINITY_DN17646_c0_g2_i1_p1
+DAL224@TRINITY_DN4168_c0_g1_i1_p1 -> DAL224_TRINITY_DN4168_c0_g1_i1_p1
+DAL224@TRINITY_DN46374_c0_g1_i3_p1 -> DAL224_TRINITY_DN46374_c0_g1_i3_p1
+DAL224@TRINITY_DN9432_c0_g1_i3_p1 -> DAL224_TRINITY_DN9432_c0_g1_i3_p1
+DAL227@TRINITY_DN3724_c0_g1_i12_p1 -> DAL227_TRINITY_DN3724_c0_g1_i12_p1
+DAL227@TRINITY_DN4104_c0_g1_i1_p1 -> DAL227_TRINITY_DN4104_c0_g1_i1_p1
+DAL227@TRINITY_DN3753_c0_g1_i1_p1 -> DAL227_TRINITY_DN3753_c0_g1_i1_p1
+DAL227@TRINITY_DN2721_c0_g1_i9_p1 -> DAL227_TRINITY_DN2721_c0_g1_i9_p1
+Dm1^Uk-3 -> Dm1_Uk-3
+Dm2d^Uk-1 -> Dm2d_Uk-1
+WRR4A^Oy-0 -> WRR4A_Oy-0
+WRR4A^Col-0 -> WRR4A_Col-0
+L^2b -> L_2b
+L^1a -> L_1a
+L^1 -> L_1
+L^4 -> L_4
+RPP7b^Lerik1-3 -> RPP7b_Lerik1-3
+Tm2^2 -> Tm2_2
+WRR8^Sf-2 -> WRR8_Sf-2
+DM10^Col-0 -> DM10_Col-0
+RPP7^Mrk-0 -> RPP7_Mrk-0
+RPP7^Koch-1 -> RPP7_Koch-1
+GmNNL1^HT1 -> GmNNL1_HT1
+WRR4B^Col-0 -> WRR4B_Col-0
+WRR4A^HR-5 -> WRR4A_HR-5
+WRR4B^Ws-2 -> WRR4B_Ws-2
+RPS4^No-0 -> RPS4_No-0
+DM10^Tuescha9 -> DM10_Tuescha9
+DM2h^Ler -> DM2h_Ler
+Dm2h^Bla-1 -> Dm2h_Bla-1
+Dm2h^Uk-1 -> Dm2h_Uk-1
+WRR9^Hi-0 -> WRR9_Hi-0
+WA02_paired@TRINITY_DN1067_c0_g2_i2_p1 -> WA02_paired_TRINITY_DN1067_c0_g2_i2_p1
+WA02_paired@TRINITY_DN15078_c0_g1_i2_p1 -> WA02_paired_TRINITY_DN15078_c0_g1_i2_p1
+WA02_paired@TRINITY_DN1067_c0_g2_i5_p1 -> WA02_paired_TRINITY_DN1067_c0_g2_i5_p1
+WA02_paired@TRINITY_DN3476_c0_g1_i6_p1 -> WA02_paired_TRINITY_DN3476_c0_g1_i6_p1
+WA02_paired@TRINITY_DN2020_c0_g2_i3_p1 -> WA02_paired_TRINITY_DN2020_c0_g2_i3_p1
+WA02_paired@TRINITY_DN87036_c0_g1_i1_p1 -> WA02_paired_TRINITY_DN87036_c0_g1_i1_p1
+WA02_paired@TRINITY_DN88617_c0_g1_i1_p1 -> WA02_paired_TRINITY_DN88617_c0_g1_i1_p1
+WA02_paired@TRINITY_DN350_c0_g1_i10_p1 -> WA02_paired_TRINITY_DN350_c0_g1_i10_p1
+WA02_paired@TRINITY_DN350_c0_g1_i3_p1 -> WA02_paired_TRINITY_DN350_c0_g1_i3_p1
+WA02_paired@TRINITY_DN350_c0_g1_i16_p1 -> WA02_paired_TRINITY_DN350_c0_g1_i16_p1
+WA02_paired@TRINITY_DN37677_c0_g1_i2_p1 -> WA02_paired_TRINITY_DN37677_c0_g1_i2_p1
+WA02_paired@TRINITY_DN72_c0_g1_i9_p1 -> WA02_paired_TRINITY_DN72_c0_g1_i9_p1
+WA03_paired@TRINITY_DN11842_c0_g1_i2_p1 -> WA03_paired_TRINITY_DN11842_c0_g1_i2_p1
+WA03_paired@TRINITY_DN5043_c0_g1_i10_p1 -> WA03_paired_TRINITY_DN5043_c0_g1_i10_p1
+WA03_paired@TRINITY_DN23510_c0_g1_i12_p1 -> WA03_paired_TRINITY_DN23510_c0_g1_i12_p1
+WA03_paired@TRINITY_DN9495_c0_g1_i1_p1 -> WA03_paired_TRINITY_DN9495_c0_g1_i1_p1
+WA03_paired@TRINITY_DN257_c2_g1_i5_p1 -> WA03_paired_TRINITY_DN257_c2_g1_i5_p1
+WA03_paired@TRINITY_DN226403_c0_g1_i1_p1 -> WA03_paired_TRINITY_DN226403_c0_g1_i1_p1
+WA03_paired@TRINITY_DN49975_c0_g1_i2_p1 -> WA03_paired_TRINITY_DN49975_c0_g1_i2_p1
+WA03_paired@TRINITY_DN529_c0_g1_i6_p1 -> WA03_paired_TRINITY_DN529_c0_g1_i6_p1
+WA03_paired@TRINITY_DN8079_c0_g1_i4_p1 -> WA03_paired_TRINITY_DN8079_c0_g1_i4_p1
+WA03_paired@TRINITY_DN13095_c0_g2_i4_p1 -> WA03_paired_TRINITY_DN13095_c0_g2_i4_p1
+WA03_paired@TRINITY_DN143433_c0_g1_i2_p1 -> WA03_paired_TRINITY_DN143433_c0_g1_i2_p1
+WA03_paired@TRINITY_DN16294_c0_g1_i1_p1 -> WA03_paired_TRINITY_DN16294_c0_g1_i1_p1
+WA03_paired@TRINITY_DN806_c0_g1_i2_p1 -> WA03_paired_TRINITY_DN806_c0_g1_i2_p1
+WA03_paired@TRINITY_DN4318_c0_g2_i3_p1 -> WA03_paired_TRINITY_DN4318_c0_g2_i3_p1
+WA03_paired@TRINITY_DN4318_c0_g2_i12_p1 -> WA03_paired_TRINITY_DN4318_c0_g2_i12_p1
+WA03_paired@TRINITY_DN11016_c0_g1_i4_p1 -> WA03_paired_TRINITY_DN11016_c0_g1_i4_p1
+WA03_paired@TRINITY_DN29927_c0_g1_i1_p1 -> WA03_paired_TRINITY_DN29927_c0_g1_i1_p1
+WA03_paired@TRINITY_DN126454_c0_g1_i1_p1 -> WA03_paired_TRINITY_DN126454_c0_g1_i1_p1
+WA07_paired@TRINITY_DN2204_c0_g1_i2_p1 -> WA07_paired_TRINITY_DN2204_c0_g1_i2_p1
+WA07_paired@TRINITY_DN11094_c0_g1_i3_p1 -> WA07_paired_TRINITY_DN11094_c0_g1_i3_p1
+WA07_paired@TRINITY_DN11094_c0_g1_i1_p1 -> WA07_paired_TRINITY_DN11094_c0_g1_i1_p1
+WA07_paired@TRINITY_DN11094_c0_g1_i4_p1 -> WA07_paired_TRINITY_DN11094_c0_g1_i4_p1
+WA07_paired@TRINITY_DN11094_c0_g1_i2_p1 -> WA07_paired_TRINITY_DN11094_c0_g1_i2_p1
+WA07_paired@TRINITY_DN113168_c0_g1_i1_p1 -> WA07_paired_TRINITY_DN113168_c0_g1_i1_p1
+WA07_paired@TRINITY_DN5426_c0_g1_i8_p1 -> WA07_paired_TRINITY_DN5426_c0_g1_i8_p1
+WA07_paired@TRINITY_DN15367_c0_g2_i1_p1 -> WA07_paired_TRINITY_DN15367_c0_g2_i1_p1
+WA07_paired@TRINITY_DN3447_c0_g3_i2_p1 -> WA07_paired_TRINITY_DN3447_c0_g3_i2_p1
+WA07_paired@TRINITY_DN1349_c0_g1_i2_p1 -> WA07_paired_TRINITY_DN1349_c0_g1_i2_p1
+WA07_paired@TRINITY_DN36251_c0_g2_i1_p1 -> WA07_paired_TRINITY_DN36251_c0_g2_i1_p1
+WA07_paired@TRINITY_DN2038_c0_g4_i1_p1 -> WA07_paired_TRINITY_DN2038_c0_g4_i1_p1
+WA07_paired@TRINITY_DN47862_c0_g1_i1_p1 -> WA07_paired_TRINITY_DN47862_c0_g1_i1_p1
+WA07_paired@TRINITY_DN15367_c0_g1_i1_p1 -> WA07_paired_TRINITY_DN15367_c0_g1_i1_p1
+WA07_paired@TRINITY_DN7338_c0_g1_i1_p1 -> WA07_paired_TRINITY_DN7338_c0_g1_i1_p1
+WA07_paired@TRINITY_DN13370_c0_g1_i3_p1 -> WA07_paired_TRINITY_DN13370_c0_g1_i3_p1
+WA07_paired@TRINITY_DN3447_c0_g4_i3_p1 -> WA07_paired_TRINITY_DN3447_c0_g4_i3_p1
+WA07_paired@TRINITY_DN3447_c0_g4_i1_p1 -> WA07_paired_TRINITY_DN3447_c0_g4_i1_p1
+WA07_paired@TRINITY_DN128876_c0_g1_i1_p1 -> WA07_paired_TRINITY_DN128876_c0_g1_i1_p1
+WA07_paired@TRINITY_DN5400_c0_g1_i4_p1 -> WA07_paired_TRINITY_DN5400_c0_g1_i4_p1
+WA07_paired@TRINITY_DN5521_c0_g1_i3_p1 -> WA07_paired_TRINITY_DN5521_c0_g1_i3_p1
+WA07_paired@TRINITY_DN4648_c0_g1_i15_p1 -> WA07_paired_TRINITY_DN4648_c0_g1_i15_p1
+WA07_paired@TRINITY_DN3829_c0_g1_i4_p1 -> WA07_paired_TRINITY_DN3829_c0_g1_i4_p1
+WA07_paired@TRINITY_DN1788_c0_g1_i1_p1 -> WA07_paired_TRINITY_DN1788_c0_g1_i1_p1
+WA07_paired@TRINITY_DN10413_c0_g1_i2_p1 -> WA07_paired_TRINITY_DN10413_c0_g1_i2_p1
+WA07_paired@TRINITY_DN17511_c0_g1_i5_p1 -> WA07_paired_TRINITY_DN17511_c0_g1_i5_p1
+WA07_paired@TRINITY_DN21962_c0_g1_i2_p1 -> WA07_paired_TRINITY_DN21962_c0_g1_i2_p1
+WA07_paired@TRINITY_DN48944_c0_g1_i1_p1 -> WA07_paired_TRINITY_DN48944_c0_g1_i1_p1
+WA07_paired@TRINITY_DN3132_c0_g2_i6_p1 -> WA07_paired_TRINITY_DN3132_c0_g2_i6_p1
+WA07_paired@TRINITY_DN6703_c0_g1_i12_p1 -> WA07_paired_TRINITY_DN6703_c0_g1_i12_p1
+WA07_paired@TRINITY_DN17511_c0_g1_i4_p1 -> WA07_paired_TRINITY_DN17511_c0_g1_i4_p1
+WA07_paired@TRINITY_DN15406_c0_g2_i1_p1 -> WA07_paired_TRINITY_DN15406_c0_g2_i1_p1
+WA07_paired@TRINITY_DN43123_c0_g1_i2_p1 -> WA07_paired_TRINITY_DN43123_c0_g1_i2_p1
+WA07_paired@TRINITY_DN18443_c0_g1_i3_p1 -> WA07_paired_TRINITY_DN18443_c0_g1_i3_p1
+WA07_paired@TRINITY_DN1371_c0_g1_i1_p1 -> WA07_paired_TRINITY_DN1371_c0_g1_i1_p1
+WA07_paired@TRINITY_DN10879_c0_g2_i8_p1 -> WA07_paired_TRINITY_DN10879_c0_g2_i8_p1
+WA08_paired@TRINITY_DN23_c0_g1_i2_p1 -> WA08_paired_TRINITY_DN23_c0_g1_i2_p1
+WA08_paired@TRINITY_DN3573_c0_g1_i5_p1 -> WA08_paired_TRINITY_DN3573_c0_g1_i5_p1
+WA08_paired@TRINITY_DN1692_c0_g2_i1_p1 -> WA08_paired_TRINITY_DN1692_c0_g2_i1_p1
+WA08_paired@TRINITY_DN73577_c0_g1_i1_p1 -> WA08_paired_TRINITY_DN73577_c0_g1_i1_p1
+WA08_paired@TRINITY_DN57702_c1_g1_i1_p1 -> WA08_paired_TRINITY_DN57702_c1_g1_i1_p1
+WA08_paired@TRINITY_DN50426_c0_g4_i1_p1 -> WA08_paired_TRINITY_DN50426_c0_g4_i1_p1
+WA08_paired@TRINITY_DN1692_c0_g2_i3_p1 -> WA08_paired_TRINITY_DN1692_c0_g2_i3_p1
+WA08_paired@TRINITY_DN558_c0_g1_i14_p1 -> WA08_paired_TRINITY_DN558_c0_g1_i14_p1
+WA08_paired@TRINITY_DN1728_c0_g1_i7_p1 -> WA08_paired_TRINITY_DN1728_c0_g1_i7_p1
+WA08_paired@TRINITY_DN10927_c0_g1_i5_p1 -> WA08_paired_TRINITY_DN10927_c0_g1_i5_p1
+WA09_paired@TRINITY_DN1856_c0_g1_i9_p1 -> WA09_paired_TRINITY_DN1856_c0_g1_i9_p1
+WA09_paired@TRINITY_DN22413_c0_g1_i2_p1 -> WA09_paired_TRINITY_DN22413_c0_g1_i2_p1
+WA09_paired@TRINITY_DN22413_c0_g1_i1_p1 -> WA09_paired_TRINITY_DN22413_c0_g1_i1_p1
+WA09_paired@TRINITY_DN48418_c0_g1_i1_p1 -> WA09_paired_TRINITY_DN48418_c0_g1_i1_p1
+WA09_paired@TRINITY_DN1856_c0_g1_i2_p1 -> WA09_paired_TRINITY_DN1856_c0_g1_i2_p1
+WA09_paired@TRINITY_DN49299_c0_g1_i1_p1 -> WA09_paired_TRINITY_DN49299_c0_g1_i1_p1
+WA09_paired@TRINITY_DN14703_c0_g1_i9_p1 -> WA09_paired_TRINITY_DN14703_c0_g1_i9_p1
+WA09_paired@TRINITY_DN1856_c0_g1_i3_p1 -> WA09_paired_TRINITY_DN1856_c0_g1_i3_p1
+WA11_paired@TRINITY_DN17537_c0_g1_i2_p1 -> WA11_paired_TRINITY_DN17537_c0_g1_i2_p1
+WA11_paired@TRINITY_DN29718_c0_g5_i2_p1 -> WA11_paired_TRINITY_DN29718_c0_g5_i2_p1
+WA11_paired@TRINITY_DN1126_c2_g1_i16_p1 -> WA11_paired_TRINITY_DN1126_c2_g1_i16_p1
+WA11_paired@TRINITY_DN1126_c2_g1_i7_p1 -> WA11_paired_TRINITY_DN1126_c2_g1_i7_p1
+WA11_paired@TRINITY_DN1714_c0_g1_i10_p1 -> WA11_paired_TRINITY_DN1714_c0_g1_i10_p1
+WA11_paired@TRINITY_DN7394_c0_g1_i2_p1 -> WA11_paired_TRINITY_DN7394_c0_g1_i2_p1
+WA11_paired@TRINITY_DN24702_c0_g1_i1_p1 -> WA11_paired_TRINITY_DN24702_c0_g1_i1_p1
+WA11_paired@TRINITY_DN6001_c0_g1_i9_p1 -> WA11_paired_TRINITY_DN6001_c0_g1_i9_p1
+WA11_paired@TRINITY_DN7146_c0_g1_i2_p1 -> WA11_paired_TRINITY_DN7146_c0_g1_i2_p1
+WA11_paired@TRINITY_DN18032_c0_g1_i9_p1 -> WA11_paired_TRINITY_DN18032_c0_g1_i9_p1
+WA11_paired@TRINITY_DN18032_c0_g1_i14_p1 -> WA11_paired_TRINITY_DN18032_c0_g1_i14_p1
+WA11_paired@TRINITY_DN86111_c0_g1_i1_p1 -> WA11_paired_TRINITY_DN86111_c0_g1_i1_p1
+WA11_paired@TRINITY_DN7394_c0_g1_i1_p1 -> WA11_paired_TRINITY_DN7394_c0_g1_i1_p1
+WA11_paired@TRINITY_DN7394_c0_g1_i7_p1 -> WA11_paired_TRINITY_DN7394_c0_g1_i7_p1
+WA11_paired@TRINITY_DN15275_c0_g1_i3_p1 -> WA11_paired_TRINITY_DN15275_c0_g1_i3_p1
+WA11_paired@TRINITY_DN16543_c0_g2_i1_p1 -> WA11_paired_TRINITY_DN16543_c0_g2_i1_p1
+WA11_paired@TRINITY_DN13778_c0_g1_i3_p1 -> WA11_paired_TRINITY_DN13778_c0_g1_i3_p1
+WA11_paired@TRINITY_DN5122_c0_g2_i1_p1 -> WA11_paired_TRINITY_DN5122_c0_g2_i1_p1
+WA12_paired@TRINITY_DN38753_c0_g1_i2_p1 -> WA12_paired_TRINITY_DN38753_c0_g1_i2_p1
+WA12_paired@TRINITY_DN3839_c0_g2_i2_p1 -> WA12_paired_TRINITY_DN3839_c0_g2_i2_p1
+WA12_paired@TRINITY_DN2651_c0_g1_i9_p1 -> WA12_paired_TRINITY_DN2651_c0_g1_i9_p1
+WA12_paired@TRINITY_DN14194_c0_g1_i1_p1 -> WA12_paired_TRINITY_DN14194_c0_g1_i1_p1
+WA12_paired@TRINITY_DN184921_c0_g1_i1_p1 -> WA12_paired_TRINITY_DN184921_c0_g1_i1_p1
+WA12_paired@TRINITY_DN18319_c0_g1_i1_p1 -> WA12_paired_TRINITY_DN18319_c0_g1_i1_p1
+WA12_paired@TRINITY_DN19717_c0_g1_i3_p1 -> WA12_paired_TRINITY_DN19717_c0_g1_i3_p1
+WA12_paired@TRINITY_DN54076_c0_g1_i1_p1 -> WA12_paired_TRINITY_DN54076_c0_g1_i1_p1
+WA12_paired@TRINITY_DN2651_c0_g1_i1_p1 -> WA12_paired_TRINITY_DN2651_c0_g1_i1_p1
+WA12_paired@TRINITY_DN20375_c2_g1_i2_p1 -> WA12_paired_TRINITY_DN20375_c2_g1_i2_p1
+WA12_paired@TRINITY_DN20375_c2_g1_i3_p1 -> WA12_paired_TRINITY_DN20375_c2_g1_i3_p1
+WA12_paired@TRINITY_DN26063_c1_g2_i1_p1 -> WA12_paired_TRINITY_DN26063_c1_g2_i1_p1
+WA12_paired@TRINITY_DN1656_c0_g1_i11_p1 -> WA12_paired_TRINITY_DN1656_c0_g1_i11_p1
+WA12_paired@TRINITY_DN3228_c0_g1_i29_p1 -> WA12_paired_TRINITY_DN3228_c0_g1_i29_p1
+WA12_paired@TRINITY_DN1779_c0_g1_i13_p1 -> WA12_paired_TRINITY_DN1779_c0_g1_i13_p1
+WA12_paired@TRINITY_DN44145_c0_g1_i1_p1 -> WA12_paired_TRINITY_DN44145_c0_g1_i1_p1
+WA12_paired@TRINITY_DN6187_c0_g2_i9_p1 -> WA12_paired_TRINITY_DN6187_c0_g2_i9_p1
+WA12_paired@TRINITY_DN6187_c0_g2_i12_p1 -> WA12_paired_TRINITY_DN6187_c0_g2_i12_p1
+WA12_paired@TRINITY_DN3839_c0_g3_i5_p1 -> WA12_paired_TRINITY_DN3839_c0_g3_i5_p1
+WA12_paired@TRINITY_DN12253_c0_g1_i1_p1 -> WA12_paired_TRINITY_DN12253_c0_g1_i1_p1
+WA12_paired@TRINITY_DN10927_c0_g1_i4_p1 -> WA12_paired_TRINITY_DN10927_c0_g1_i4_p1
+WA12_paired@TRINITY_DN3455_c0_g2_i15_p1 -> WA12_paired_TRINITY_DN3455_c0_g2_i15_p1
+WA12_paired@TRINITY_DN2651_c0_g1_i6_p1 -> WA12_paired_TRINITY_DN2651_c0_g1_i6_p1
+WA12_paired@TRINITY_DN29415_c2_g1_i1_p1 -> WA12_paired_TRINITY_DN29415_c2_g1_i1_p1
+WA12_paired@TRINITY_DN628_c0_g2_i1_p1 -> WA12_paired_TRINITY_DN628_c0_g2_i1_p1
+WA12_paired@TRINITY_DN134162_c0_g1_i1_p1 -> WA12_paired_TRINITY_DN134162_c0_g1_i1_p1
+WA12_paired@TRINITY_DN19117_c0_g2_i2_p1 -> WA12_paired_TRINITY_DN19117_c0_g2_i2_p1
+WA12_paired@TRINITY_DN2495_c1_g1_i1_p1 -> WA12_paired_TRINITY_DN2495_c1_g1_i1_p1
+WA12_paired@TRINITY_DN5271_c0_g1_i2_p1 -> WA12_paired_TRINITY_DN5271_c0_g1_i2_p1
+WA12_paired@TRINITY_DN5271_c0_g1_i1_p1 -> WA12_paired_TRINITY_DN5271_c0_g1_i1_p1
+WA12_paired@TRINITY_DN4046_c0_g1_i7_p1 -> WA12_paired_TRINITY_DN4046_c0_g1_i7_p1
+WA12_paired@TRINITY_DN3455_c0_g1_i1_p1 -> WA12_paired_TRINITY_DN3455_c0_g1_i1_p1
+WA12_paired@TRINITY_DN38112_c1_g1_i1_p1 -> WA12_paired_TRINITY_DN38112_c1_g1_i1_p1
+WA12_paired@TRINITY_DN19319_c1_g1_i13_p1 -> WA12_paired_TRINITY_DN19319_c1_g1_i13_p1
+WA13_paired@TRINITY_DN21619_c0_g1_i1_p1 -> WA13_paired_TRINITY_DN21619_c0_g1_i1_p1
+WA13_paired@TRINITY_DN5027_c0_g1_i3_p1 -> WA13_paired_TRINITY_DN5027_c0_g1_i3_p1
+WA13_paired@TRINITY_DN5027_c0_g1_i9_p1 -> WA13_paired_TRINITY_DN5027_c0_g1_i9_p1
+WA13_paired@TRINITY_DN232_c0_g2_i2_p1 -> WA13_paired_TRINITY_DN232_c0_g2_i2_p1
+WA13_paired@TRINITY_DN4033_c0_g3_i1_p1 -> WA13_paired_TRINITY_DN4033_c0_g3_i1_p1
+WA13_paired@TRINITY_DN1510_c0_g1_i1_p1 -> WA13_paired_TRINITY_DN1510_c0_g1_i1_p1
+WA13_paired@TRINITY_DN232_c0_g1_i6_p1 -> WA13_paired_TRINITY_DN232_c0_g1_i6_p1
+WA13_paired@TRINITY_DN8953_c0_g1_i2_p1 -> WA13_paired_TRINITY_DN8953_c0_g1_i2_p1
+WA13_paired@TRINITY_DN564_c0_g1_i11_p1 -> WA13_paired_TRINITY_DN564_c0_g1_i11_p1
+WA13_paired@TRINITY_DN232_c0_g1_i5_p1 -> WA13_paired_TRINITY_DN232_c0_g1_i5_p1
+WA13_paired@TRINITY_DN1776_c0_g1_i2_p1 -> WA13_paired_TRINITY_DN1776_c0_g1_i2_p1
+WA13_paired@TRINITY_DN1776_c0_g1_i1_p1 -> WA13_paired_TRINITY_DN1776_c0_g1_i1_p1
+WA13_paired@TRINITY_DN16307_c0_g1_i2_p1 -> WA13_paired_TRINITY_DN16307_c0_g1_i2_p1
+WA13_paired@TRINITY_DN11294_c0_g1_i1_p1 -> WA13_paired_TRINITY_DN11294_c0_g1_i1_p1
+WA13_paired@TRINITY_DN1337_c0_g3_i3_p1 -> WA13_paired_TRINITY_DN1337_c0_g3_i3_p1
+WA13_paired@TRINITY_DN3575_c0_g1_i1_p1 -> WA13_paired_TRINITY_DN3575_c0_g1_i1_p1
+WA13_paired@TRINITY_DN1842_c0_g1_i6_p1 -> WA13_paired_TRINITY_DN1842_c0_g1_i6_p1
+WA13_paired@TRINITY_DN94056_c0_g1_i1_p1 -> WA13_paired_TRINITY_DN94056_c0_g1_i1_p1
+WA13_paired@TRINITY_DN37427_c0_g1_i1_p1 -> WA13_paired_TRINITY_DN37427_c0_g1_i1_p1
+WA13_paired@TRINITY_DN18092_c0_g1_i1_p1 -> WA13_paired_TRINITY_DN18092_c0_g1_i1_p1
+WA13_paired@TRINITY_DN36811_c0_g1_i1_p1 -> WA13_paired_TRINITY_DN36811_c0_g1_i1_p1
+WA13_paired@TRINITY_DN20667_c0_g1_i2_p1 -> WA13_paired_TRINITY_DN20667_c0_g1_i2_p1
+WA13_paired@TRINITY_DN32488_c0_g2_i1_p1 -> WA13_paired_TRINITY_DN32488_c0_g2_i1_p1
+WA13_paired@TRINITY_DN4347_c0_g1_i3_p1 -> WA13_paired_TRINITY_DN4347_c0_g1_i3_p1
+WA13_paired@TRINITY_DN16456_c0_g2_i4_p1 -> WA13_paired_TRINITY_DN16456_c0_g2_i4_p1
+WA13_paired@TRINITY_DN384_c1_g1_i1_p1 -> WA13_paired_TRINITY_DN384_c1_g1_i1_p1
+WA13_paired@TRINITY_DN384_c1_g1_i11_p1 -> WA13_paired_TRINITY_DN384_c1_g1_i11_p1
+WA13_paired@TRINITY_DN1361_c1_g1_i4_p1 -> WA13_paired_TRINITY_DN1361_c1_g1_i4_p1
+WA13_paired@TRINITY_DN1361_c1_g1_i6_p1 -> WA13_paired_TRINITY_DN1361_c1_g1_i6_p1
+WA13_paired@TRINITY_DN564_c0_g1_i7_p1 -> WA13_paired_TRINITY_DN564_c0_g1_i7_p1
+WA13_paired@TRINITY_DN2822_c0_g2_i1_p1 -> WA13_paired_TRINITY_DN2822_c0_g2_i1_p1
+WA13_paired@TRINITY_DN564_c0_g1_i13_p1 -> WA13_paired_TRINITY_DN564_c0_g1_i13_p1
+WA13_paired@TRINITY_DN5027_c0_g1_i2_p1 -> WA13_paired_TRINITY_DN5027_c0_g1_i2_p1
+WA13_paired@TRINITY_DN1333_c0_g1_i2_p1 -> WA13_paired_TRINITY_DN1333_c0_g1_i2_p1
+WA13_paired@TRINITY_DN1842_c0_g2_i2_p1 -> WA13_paired_TRINITY_DN1842_c0_g2_i2_p1
+WA14_paired@TRINITY_DN7853_c0_g1_i9_p1 -> WA14_paired_TRINITY_DN7853_c0_g1_i9_p1
+WA14_paired@TRINITY_DN38071_c0_g1_i2_p1 -> WA14_paired_TRINITY_DN38071_c0_g1_i2_p1
+WA14_paired@TRINITY_DN2871_c0_g1_i1_p1 -> WA14_paired_TRINITY_DN2871_c0_g1_i1_p1
+WA14_paired@TRINITY_DN2090_c0_g1_i2_p1 -> WA14_paired_TRINITY_DN2090_c0_g1_i2_p1
+WA14_paired@TRINITY_DN2090_c0_g1_i5_p1 -> WA14_paired_TRINITY_DN2090_c0_g1_i5_p1
+WA14_paired@TRINITY_DN9346_c0_g1_i11_p1 -> WA14_paired_TRINITY_DN9346_c0_g1_i11_p1
+WA14_paired@TRINITY_DN1702_c0_g2_i3_p1 -> WA14_paired_TRINITY_DN1702_c0_g2_i3_p1
+WA14_paired@TRINITY_DN20920_c0_g1_i8_p1 -> WA14_paired_TRINITY_DN20920_c0_g1_i8_p1
+WA14_paired@TRINITY_DN28136_c0_g1_i1_p1 -> WA14_paired_TRINITY_DN28136_c0_g1_i1_p1
+WA14_paired@TRINITY_DN5698_c0_g1_i14_p1 -> WA14_paired_TRINITY_DN5698_c0_g1_i14_p1
+WA14_paired@TRINITY_DN2404_c0_g1_i13_p1 -> WA14_paired_TRINITY_DN2404_c0_g1_i13_p1
+WA14_paired@TRINITY_DN1391_c0_g1_i37_p1 -> WA14_paired_TRINITY_DN1391_c0_g1_i37_p1
+WA14_paired@TRINITY_DN860_c0_g1_i5_p1 -> WA14_paired_TRINITY_DN860_c0_g1_i5_p1
+WA14_paired@TRINITY_DN7338_c0_g2_i1_p1 -> WA14_paired_TRINITY_DN7338_c0_g2_i1_p1
+WA14_paired@TRINITY_DN16077_c0_g1_i2_p1 -> WA14_paired_TRINITY_DN16077_c0_g1_i2_p1
+WA14_paired@TRINITY_DN784_c0_g1_i1_p1 -> WA14_paired_TRINITY_DN784_c0_g1_i1_p1
+WA14_paired@TRINITY_DN1523_c0_g1_i5_p1 -> WA14_paired_TRINITY_DN1523_c0_g1_i5_p1
+WA14_paired@TRINITY_DN7862_c0_g2_i5_p1 -> WA14_paired_TRINITY_DN7862_c0_g2_i5_p1
+WA14_paired@TRINITY_DN3560_c0_g1_i4_p1 -> WA14_paired_TRINITY_DN3560_c0_g1_i4_p1
+WA14_paired@TRINITY_DN4522_c0_g3_i1_p1 -> WA14_paired_TRINITY_DN4522_c0_g3_i1_p1
+WA14_paired@TRINITY_DN5698_c0_g1_i16_p1 -> WA14_paired_TRINITY_DN5698_c0_g1_i16_p1
+WA14_paired@TRINITY_DN1487_c1_g5_i1_p1 -> WA14_paired_TRINITY_DN1487_c1_g5_i1_p1
+WA14_paired@TRINITY_DN23785_c1_g1_i1_p1 -> WA14_paired_TRINITY_DN23785_c1_g1_i1_p1
+WA14_paired@TRINITY_DN2821_c0_g1_i7_p1 -> WA14_paired_TRINITY_DN2821_c0_g1_i7_p1
+WA14_paired@TRINITY_DN122097_c0_g1_i1_p1 -> WA14_paired_TRINITY_DN122097_c0_g1_i1_p1
+WA14_paired@TRINITY_DN1964_c0_g1_i3_p1 -> WA14_paired_TRINITY_DN1964_c0_g1_i3_p1
+WA14_paired@TRINITY_DN2628_c0_g1_i4_p1 -> WA14_paired_TRINITY_DN2628_c0_g1_i4_p1
+WA14_paired@TRINITY_DN14_c1_g1_i2_p1 -> WA14_paired_TRINITY_DN14_c1_g1_i2_p1
+WA14_paired@TRINITY_DN1140_c0_g1_i11_p1 -> WA14_paired_TRINITY_DN1140_c0_g1_i11_p1
+WA14_paired@TRINITY_DN689_c0_g1_i8_p1 -> WA14_paired_TRINITY_DN689_c0_g1_i8_p1
+WA14_paired@TRINITY_DN2404_c0_g1_i7_p1 -> WA14_paired_TRINITY_DN2404_c0_g1_i7_p1
+WA14_paired@TRINITY_DN2821_c0_g1_i3_p1 -> WA14_paired_TRINITY_DN2821_c0_g1_i3_p1
+WA14_paired@TRINITY_DN16894_c1_g1_i1_p1 -> WA14_paired_TRINITY_DN16894_c1_g1_i1_p1
+WA14_paired@TRINITY_DN4181_c0_g2_i2_p1 -> WA14_paired_TRINITY_DN4181_c0_g2_i2_p1
+WA14_paired@TRINITY_DN1987_c0_g2_i5_p1 -> WA14_paired_TRINITY_DN1987_c0_g2_i5_p1
+WA14_paired@TRINITY_DN1987_c0_g2_i11_p1 -> WA14_paired_TRINITY_DN1987_c0_g2_i11_p1
+WA14_paired@TRINITY_DN23980_c0_g2_i5_p1 -> WA14_paired_TRINITY_DN23980_c0_g2_i5_p1
+WA14_paired@TRINITY_DN1487_c0_g1_i4_p1 -> WA14_paired_TRINITY_DN1487_c0_g1_i4_p1
+WA14_paired@TRINITY_DN2052_c0_g2_i1_p1 -> WA14_paired_TRINITY_DN2052_c0_g2_i1_p1
+WA14_paired@TRINITY_DN13989_c0_g1_i2_p1 -> WA14_paired_TRINITY_DN13989_c0_g1_i2_p1
+WA14_paired@TRINITY_DN13989_c0_g1_i4_p1 -> WA14_paired_TRINITY_DN13989_c0_g1_i4_p1
+WA14_paired@TRINITY_DN13989_c0_g1_i3_p1 -> WA14_paired_TRINITY_DN13989_c0_g1_i3_p1
+WA14_paired@TRINITY_DN78806_c0_g1_i1_p1 -> WA14_paired_TRINITY_DN78806_c0_g1_i1_p1
+WA14_paired@TRINITY_DN2821_c0_g1_i8_p1 -> WA14_paired_TRINITY_DN2821_c0_g1_i8_p1
+WA14_paired@TRINITY_DN12974_c1_g2_i5_p1 -> WA14_paired_TRINITY_DN12974_c1_g2_i5_p1
+WA14_paired@TRINITY_DN5698_c0_g1_i15_p1 -> WA14_paired_TRINITY_DN5698_c0_g1_i15_p1
+WA14_paired@TRINITY_DN5698_c0_g1_i4_p1 -> WA14_paired_TRINITY_DN5698_c0_g1_i4_p1
+WA18_paired@TRINITY_DN234_c0_g1_i12_p1 -> WA18_paired_TRINITY_DN234_c0_g1_i12_p1
+WA18_paired@TRINITY_DN234_c0_g1_i10_p1 -> WA18_paired_TRINITY_DN234_c0_g1_i10_p1
+WA18_paired@TRINITY_DN123330_c0_g1_i1_p1 -> WA18_paired_TRINITY_DN123330_c0_g1_i1_p1
+WA18_paired@TRINITY_DN12089_c1_g1_i3_p1 -> WA18_paired_TRINITY_DN12089_c1_g1_i3_p1
+WA18_paired@TRINITY_DN100611_c0_g1_i1_p1 -> WA18_paired_TRINITY_DN100611_c0_g1_i1_p1
+WA18_paired@TRINITY_DN3855_c0_g2_i2_p1 -> WA18_paired_TRINITY_DN3855_c0_g2_i2_p1
+WA18_paired@TRINITY_DN511_c1_g1_i10_p1 -> WA18_paired_TRINITY_DN511_c1_g1_i10_p1
+WA18_paired@TRINITY_DN511_c1_g1_i12_p1 -> WA18_paired_TRINITY_DN511_c1_g1_i12_p1
+WA18_paired@TRINITY_DN2200_c0_g1_i2_p1 -> WA18_paired_TRINITY_DN2200_c0_g1_i2_p1
+WA18_paired@TRINITY_DN234_c0_g1_i2_p1 -> WA18_paired_TRINITY_DN234_c0_g1_i2_p1
+WA18_paired@TRINITY_DN84391_c0_g1_i1_p1 -> WA18_paired_TRINITY_DN84391_c0_g1_i1_p1
+WA18_paired@TRINITY_DN12910_c0_g1_i1_p1 -> WA18_paired_TRINITY_DN12910_c0_g1_i1_p1
+WA18_paired@TRINITY_DN1024_c0_g2_i4_p1 -> WA18_paired_TRINITY_DN1024_c0_g2_i4_p1
+WA26_paired@TRINITY_DN37_c1_g2_i1_p1 -> WA26_paired_TRINITY_DN37_c1_g2_i1_p1
+
+                                          Gap/Ambiguity  Composition  p-value
+   1  DAL192_TRINITY_DN3691_c0_g1_i9_p1          13.56%    passed     82.74%
+   2  DAL192_TRINITY_DN1960_c0_g1_i5_p1          13.98%    passed     68.50%
+   3  DAL192_TRINITY_DN4649_c0_g1_i3_p1          12.71%    passed     91.65%
+   4  DAL192_TRINITY_DN4946_c0_g2_i1_p1          14.83%    passed     99.33%
+   5  DAL192_TRINITY_DN451_c0_g1_i22_p1          14.83%    passed     99.02%
+   6  DAL192_TRINITY_DN7555_c1_g3_i1_p1          13.56%    passed     86.87%
+   7  DAL192_TRINITY_DN7620_c1_g2_i1_p1          26.27%    passed     82.17%
+   8  DAL192_TRINITY_DN7999_c0_g1_i1_p1          33.47%    passed     94.75%
+   9  DAL192_TRINITY_DN54686_c0_g1_i1_p1         52.54%    passed     23.23%
+  10  DAL192_TRINITY_DN3828_c0_g1_i4_p1          17.37%    passed     60.97%
+  11  DAL192_TRINITY_DN7584_c0_g1_i1_p1          20.34%    passed     87.94%
+  12  DAL192_TRINITY_DN66060_c0_g1_i1_p1         19.07%    passed     54.11%
+  13  DAL192_TRINITY_DN5534_c0_g1_i10_p1         36.86%    passed     84.79%
+  14  DAL192_TRINITY_DN7247_c0_g1_i4_p1          60.17%    passed     40.51%
+  15  DAL192_TRINITY_DN9090_c0_g1_i1_p1          13.98%    passed     87.82%
+  16  DAL192_TRINITY_DN6600_c2_g1_i2_p1          38.98%    passed     69.03%
+  17  DAL192_TRINITY_DN12508_c0_g1_i3_p1         19.07%    passed     37.88%
+  18  DAL192_TRINITY_DN5764_c0_g1_i2_p1          52.12%    passed     47.59%
+  19  DAL192_TRINITY_DN1488_c0_g2_i2_p1          15.68%    passed     98.72%
+  20  DAL192_TRINITY_DN207_c0_g3_i1_p1           14.41%    passed     80.88%
+  21  DAL192_TRINITY_DN73667_c0_g1_i1_p1         13.56%    passed     44.29%
+  22  DAL192_TRINITY_DN207_c0_g1_i2_p1           13.56%    passed     34.54%
+  23  DAL192_TRINITY_DN75094_c0_g1_i1_p1         21.61%    passed     34.73%
+  24  DAL192_TRINITY_DN34116_c0_g1_i1_p1         14.41%    passed     65.24%
+  25  DAL192_TRINITY_DN5764_c0_g1_i9_p1          25.00%    passed     98.75%
+  26  DAL192_TRINITY_DN5666_c0_g1_i1_p1          13.14%    passed     83.84%
+  27  DAL192_TRINITY_DN2341_c0_g1_i5_p1          14.83%    passed     97.12%
+  28  DAL192_TRINITY_DN5667_c0_g1_i1_p1          13.56%    passed     93.31%
+  29  DAL192_TRINITY_DN4042_c0_g1_i4_p1          42.37%    passed     64.93%
+  30  DAL192_TRINITY_DN6277_c0_g1_i7_p1          50.85%    passed     54.46%
+  31  DAL192_TRINITY_DN6600_c2_g2_i6_p1          13.98%    passed     43.52%
+  32  DAL192_TRINITY_DN887_c0_g1_i10_p1          16.53%    passed     99.87%
+  33  DAL193_TRINITY_DN13018_c0_g1_i1_p1         58.05%    passed     32.66%
+  34  DAL193_TRINITY_DN9560_c0_g2_i4_p1          14.83%    passed     99.89%
+  35  DAL193_TRINITY_DN9560_c0_g2_i5_p1          14.83%    passed     98.95%
+  36  DAL193_TRINITY_DN13184_c1_g2_i1_p1         19.49%    passed     94.49%
+  37  DAL193_TRINITY_DN9560_c0_g1_i3_p1          45.76%    passed     50.94%
+  38  DAL193_TRINITY_DN5126_c0_g2_i1_p1          23.31%    passed     99.11%
+  39  DAL193_TRINITY_DN6890_c0_g1_i3_p1          61.44%    passed     50.13%
+  40  DAL193_TRINITY_DN10390_c1_g2_i3_p1         23.73%    passed     97.65%
+  41  DAL193_TRINITY_DN55687_c0_g1_i2_p1         13.56%    passed     61.43%
+  42  DAL193_TRINITY_DN18045_c0_g1_i1_p1         56.78%    passed     36.89%
+  43  DAL193_TRINITY_DN10602_c0_g2_i5_p1         37.29%    passed     72.81%
+  44  DAL193_TRINITY_DN10602_c0_g2_i1_p1         37.29%    passed     68.91%
+  45  DAL193_TRINITY_DN10602_c0_g1_i4_p1         57.20%    passed     61.63%
+  46  DAL193_TRINITY_DN595_c0_g1_i10_p1          44.07%    passed     58.13%
+  47  DAL193_TRINITY_DN83054_c0_g1_i2_p1         13.98%    passed     89.01%
+  48  DAL195_TRINITY_DN9332_c0_g1_i1_p1          18.22%    passed     80.23%
+  49  DAL195_TRINITY_DN2496_c0_g1_i8_p1          14.83%    passed     98.14%
+  50  DAL195_TRINITY_DN2496_c0_g1_i9_p1          14.83%    passed     83.80%
+  51  DAL195_TRINITY_DN2496_c0_g1_i10_p1         14.83%    passed     80.99%
+  52  DAL195_TRINITY_DN2496_c0_g1_i6_p1          14.83%    passed     90.34%
+  53  DAL195_TRINITY_DN8121_c0_g2_i5_p1          21.19%    passed     96.74%
+  54  DAL195_TRINITY_DN3031_c0_g1_i8_p1          13.98%    passed     40.72%
+  55  DAL195_TRINITY_DN15684_c0_g1_i1_p1         54.24%    passed     40.62%
+  56  DAL195_TRINITY_DN4428_c0_g1_i1_p1          13.98%    passed     99.84%
+  57  DAL212_TRINITY_DN5518_c0_g1_i1_p1          42.80%    passed     91.34%
+  58  DAL212_TRINITY_DN2451_c0_g1_i2_p1          16.10%    passed     99.94%
+  59  DAL212_TRINITY_DN2451_c0_g2_i1_p1          17.37%    passed     99.91%
+  60  DAL212_TRINITY_DN11205_c0_g1_i2_p1         87.29%    passed      5.51%
+  61  DAL212_TRINITY_DN6838_c0_g2_i2_p1          26.27%    passed     78.70%
+  62  DAL212_TRINITY_DN6838_c0_g2_i3_p1          26.27%    passed     89.52%
+  63  DAL212_TRINITY_DN6212_c0_g1_i6_p1          25.00%    passed     83.61%
+  64  DAL212_TRINITY_DN6716_c0_g1_i8_p1          20.34%    passed     79.53%
+  65  DAL212_TRINITY_DN10975_c0_g1_i2_p1         85.59%    passed     51.14%
+  66  DAL212_TRINITY_DN6435_c0_g1_i53_p1         46.61%    passed     41.87%
+  67  DAL212_TRINITY_DN4377_c0_g1_i2_p1          27.12%    passed     44.20%
+  68  DAL212_TRINITY_DN9848_c0_g1_i2_p1          24.15%    passed     99.53%
+  69  DAL212_TRINITY_DN6716_c0_g4_i1_p1          19.49%    passed     90.51%
+  70  DAL212_TRINITY_DN7061_c0_g1_i4_p1          19.07%    passed     89.92%
+  71  DAL212_TRINITY_DN7138_c0_g1_i1_p1          15.25%    passed     88.09%
+  72  DAL212_TRINITY_DN11515_c0_g1_i2_p1         55.93%    passed     83.60%
+  73  DAL212_TRINITY_DN9379_c0_g1_i5_p1          72.03%    passed     86.59%
+  74  DAL212_TRINITY_DN9379_c0_g1_i1_p1          72.03%    passed     66.58%
+  75  DAL212_TRINITY_DN2655_c0_g1_i17_p1         20.34%    passed     94.98%
+  76  DAL212_TRINITY_DN5560_c0_g4_i1_p1          19.92%    passed     96.32%
+  77  DAL212_TRINITY_DN9795_c0_g1_i1_p1          44.07%    passed     57.31%
+  78  DAL212_TRINITY_DN7618_c0_g1_i1_p1          16.95%    passed     91.88%
+  79  DAL212_TRINITY_DN3136_c1_g2_i5_p1          16.95%    passed     90.40%
+  80  DAL212_TRINITY_DN3136_c1_g2_i1_p1          52.12%    passed     12.00%
+  81  DAL218_TRINITY_DN10768_c0_g1_i2_p1         13.98%    passed     92.43%
+  82  DAL218_TRINITY_DN18293_c0_g1_i2_p1         14.83%    passed     88.96%
+  83  DAL218_TRINITY_DN1312_c1_g1_i2_p1          16.53%    passed     90.75%
+  84  DAL218_TRINITY_DN12498_c0_g1_i3_p1         13.56%    passed     99.82%
+  85  DAL218_TRINITY_DN7574_c0_g1_i6_p1          13.98%    passed     85.82%
+  86  DAL218_TRINITY_DN12996_c0_g1_i2_p1         49.58%    passed     36.85%
+  87  DAL218_TRINITY_DN3447_c0_g2_i8_p1          54.24%    passed      7.23%
+  88  DAL218_TRINITY_DN26743_c0_g1_i1_p1         20.76%    passed     78.61%
+  89  DAL218_TRINITY_DN6240_c0_g3_i1_p1          55.08%    passed     84.84%
+  90  DAL218_TRINITY_DN5211_c1_g1_i10_p1         38.14%    passed     82.74%
+  91  DAL218_TRINITY_DN14164_c0_g1_i1_p1         59.32%    passed     65.89%
+  92  DAL218_TRINITY_DN12682_c0_g1_i5_p1         36.44%    passed     76.54%
+  93  DAL218_TRINITY_DN67535_c0_g1_i1_p1         14.41%    passed     57.50%
+  94  DAL218_TRINITY_DN18701_c0_g1_i1_p1         37.29%    passed     24.84%
+  95  DAL224_TRINITY_DN787_c1_g1_i3_p1           19.07%    passed     38.27%
+  96  DAL224_TRINITY_DN9972_c0_g1_i5_p1          48.73%    passed     12.16%
+  97  DAL224_TRINITY_DN5094_c0_g1_i3_p1          65.25%    passed     29.42%
+  98  DAL224_TRINITY_DN842_c2_g1_i2_p1           16.53%    passed     89.47%
+  99  DAL224_TRINITY_DN5406_c0_g4_i1_p1          22.88%    passed     90.05%
+ 100  DAL224_TRINITY_DN7168_c0_g3_i1_p1          40.25%    passed     64.11%
+ 101  DAL224_TRINITY_DN20229_c1_g1_i1_p1         22.46%    passed     94.60%
+ 102  DAL224_TRINITY_DN1421_c0_g1_i5_p1          13.14%    passed     99.36%
+ 103  DAL224_TRINITY_DN34911_c0_g1_i1_p1         80.51%    passed     19.73%
+ 104  DAL224_TRINITY_DN71009_c0_g1_i1_p1         36.86%    passed     42.31%
+ 105  DAL224_TRINITY_DN17646_c0_g2_i1_p1         54.24%    passed     40.40%
+ 106  DAL224_TRINITY_DN4168_c0_g1_i1_p1          20.76%    passed     35.48%
+ 107  DAL224_TRINITY_DN46374_c0_g1_i3_p1         13.98%    passed     99.70%
+ 108  DAL224_TRINITY_DN9432_c0_g1_i3_p1          14.41%    passed     32.71%
+ 109  DAL227_TRINITY_DN3724_c0_g1_i12_p1         14.41%    passed     99.81%
+ 110  DAL227_TRINITY_DN4104_c0_g1_i1_p1          20.76%    passed     62.98%
+ 111  DAL227_TRINITY_DN3753_c0_g1_i1_p1          24.15%    passed     96.60%
+ 112  DAL227_TRINITY_DN2721_c0_g1_i9_p1          58.47%    passed     84.89%
+ 113  RPM1                                       12.71%    passed     24.53%
+ 114  PIH-X                                      15.25%    passed     99.68%
+ 115  HcMLA1                                     16.53%    passed     87.85%
+ 116  MLA31-1                                    16.53%    passed     95.62%
+ 117  MLA32                                      16.53%    passed     97.71%
+ 118  MLA19-1                                    16.53%    passed     92.90%
+ 119  SrTA1662                                   16.53%    passed     80.01%
+ 120  ADR1-L1                                    20.34%    passed     77.61%
+ 121  Pi7-J-1                                    18.64%    passed      9.70%
+ 122  Pik-p1                                     18.64%    passed      9.70%
+ 123  HvRGA1                                     39.41%    passed     62.14%
+ 124  NbPRFb                                     15.25%    passed     75.34%
+ 125  Pi-ta-RGA4                                 16.53%    failed      0.25%
+ 126  Rp1-D                                      16.95%    passed     76.33%
+ 127  YrU1-RGA4                                  17.37%    passed     98.92%
+ 128  Adnr1-RGA4                                 17.37%    passed     98.70%
+ 129  GmKR3                                      23.31%    passed     46.12%
+ 130  Xo1                                        13.98%    passed      5.86%
+ 131  Xa1                                        13.98%    passed      5.86%
+ 132  RPG5                                       16.95%    passed     71.99%
+ 133  SUT1                                       16.10%    passed     97.41%
+ 134  Bs4                                        25.00%    passed     92.06%
+ 135  Rpi-hcb1.1                                 14.41%    passed     93.74%
+ 136  Rpi-edn2                                   14.41%    passed     94.04%
+ 137  Pia-1                                      15.25%    passed     91.46%
+ 138  Pi-ta                                      14.41%    passed     99.41%
+ 139  AhRRS5                                     16.10%    passed     89.00%
+ 140  R9a                                        14.41%    passed     90.41%
+ 141  Pi9                                        11.44%    passed     70.96%
+ 142  PigmS                                      11.44%    passed     75.58%
+ 143  RPP39                                      15.68%    passed     74.02%
+ 144  UNI                                        15.68%    passed     74.40%
+ 145  Bs2                                        14.83%    passed     99.25%
+ 146  Lr21                                       11.02%    passed     80.25%
+ 147  RPP28                                      22.46%    passed     83.67%
+ 148  SSI4                                       22.88%    passed     90.64%
+ 149  Dm1_Uk-3                                   22.88%    passed     67.08%
+ 150  PigmR                                      11.44%    passed     79.38%
+ 151  Sr61                                       15.25%    passed     95.62%
+ 152  Rpi-mcq1.1                                 14.83%    passed     87.93%
+ 153  R1                                         13.14%    passed     99.66%
+ 154  TAO1                                       23.73%    passed     97.84%
+ 155  Dm2d_Uk-1                                  22.03%    passed     74.33%
+ 156  RPP1-NdA                                   22.46%    passed     50.50%
+ 157  RPP1-WsA                                   22.46%    passed     17.91%
+ 158  NbNRC2b                                    13.98%    passed     96.76%
+ 159  NbNRC2a                                    13.98%    passed     96.62%
+ 160  Pik-s1                                     18.64%    failed      4.10%
+ 161  Rpp1-R3                                    38.98%    passed     74.41%
+ 162  Tsw                                        19.49%    passed     44.43%
+ 163  Pi54                                       19.07%    passed      9.28%
+ 164  CHS3                                       23.73%    passed     71.13%
+ 165  RLM1A                                      23.73%    passed     70.69%
+ 166  Hero-A                                     14.83%    passed     81.48%
+ 167  Rvi15                                      21.61%    passed     86.81%
+ 168  Ptr1                                       13.56%    passed     92.81%
+ 169  StrPtr1                                    13.56%    passed     98.18%
+ 170  CaPtr1                                     13.56%    passed     99.11%
+ 171  Rz2                                        13.98%    passed     98.58%
+ 172  alpha-WOLF7                                13.56%    passed     80.77%
+ 173  alpha-WOLF10                               13.56%    passed     82.65%
+ 174  alpha-WOLF4a                               13.56%    passed     75.86%
+ 175  alpha-WOLF2a                               13.56%    passed     84.38%
+ 176  alpha-WOLF18                               13.56%    passed     94.74%
+ 177  WRR4A_Oy-0                                 52.12%    passed     68.82%
+ 178  Ma                                         20.76%    passed     94.76%
+ 179  RPP8                                       13.98%    passed     71.63%
+ 180  NRC0                                       13.98%    passed     99.05%
+ 181  Pl8                                        16.10%    passed     99.84%
+ 182  P                                          19.92%    passed     93.58%
+ 183  P2                                         19.92%    passed     93.58%
+ 184  DAR5                                       65.68%    passed     62.50%
+ 185  CW9                                        15.25%    passed     74.26%
+ 186  I2                                         14.83%    passed     95.00%
+ 187  Rpp1-R5                                    40.25%    passed     92.42%
+ 188  Pm1a                                       17.37%    passed     88.23%
+ 189  R8                                         13.98%    passed     99.92%
+ 190  NRC3                                       13.98%    passed     55.40%
+ 191  Pc                                         21.19%    passed     62.04%
+ 192  Roq1                                       25.00%    passed     74.09%
+ 193  TN2                                        59.75%    passed     33.90%
+ 194  TuNI                                       15.25%    passed     98.70%
+ 195  NRC4b                                      13.14%    passed     89.26%
+ 196  RRS1-Ws                                    27.12%    passed     96.99%
+ 197  RRS1-S                                     27.12%    passed     95.00%
+ 198  NRG1                                       17.80%    passed     87.16%
+ 199  Pia-2                                      26.69%    passed     82.62%
+ 200  PiPR1                                      14.41%    passed     45.72%
+ 201  NRC6                                       13.14%    passed     47.49%
+ 202  Pm3k                                       14.41%    passed     93.07%
+ 203  Pm3b                                       13.98%    passed     94.11%
+ 204  Pm3a                                       13.98%    passed     92.79%
+ 205  Pi5-1                                      16.10%    passed     99.56%
+ 206  Pii-1                                      16.10%    passed     99.66%
+ 207  TaRCR1                                     13.14%    passed     96.44%
+ 208  NiattPtr1                                  13.56%    passed     99.48%
+ 209  NbPtr1                                     13.56%    passed     98.86%
+ 210  Rpi-bt1                                    13.14%    passed     92.00%
+ 211  Ry_sto                                     26.27%    passed     76.73%
+ 212  WRR4A_Col-0                                41.53%    passed     93.35%
+ 213  Vat                                        17.80%    passed     92.04%
+ 214  Rpi-chc1.1                                 14.83%    passed     90.51%
+ 215  L1                                         19.92%    passed     98.00%
+ 216  L8                                         19.92%    passed     82.57%
+ 217  TN13                                       44.49%    passed     28.08%
+ 218  Rpi-amr3-1032                              14.41%    passed     85.17%
+ 219  Rpi-amr3-3408                              14.41%    passed     85.76%
+ 220  RFL1                                       15.68%    passed     78.39%
+ 221  CSA1                                       41.10%    passed     35.73%
+ 222  Pik-e1                                     18.64%    failed      3.66%
+ 223  CcRpp1                                     13.14%    passed     57.61%
+ 224  NbNRC4b                                    13.14%    passed     58.27%
+ 225  NbNRC4a                                    13.14%    passed     53.40%
+ 226  NbNRC4c                                    13.14%    passed     53.40%
+ 227  NRC4a                                      13.14%    passed     58.10%
+ 228  KR1                                        23.31%    passed      9.86%
+ 229  L_2b                                       16.53%    passed     98.26%
+ 230  L_1a                                       16.53%    passed     98.41%
+ 231  L_1                                        16.53%    passed     98.12%
+ 232  L_4                                        16.53%    passed     98.26%
+ 233  Y-1                                        24.15%    passed     66.77%
+ 234  RT4-4                                      24.58%    passed     89.21%
+ 235  Mi-1                                       15.68%    passed     85.66%
+ 236  Rpi-blb2                                   15.68%    passed     58.03%
+ 237  RPP7b_Lerik1-3                             15.68%    passed     96.91%
+ 238  Rpa1                                       15.25%    passed     81.84%
+ 239  Sr21                                       16.10%    passed     86.80%
+ 240  N                                          24.58%    passed     18.19%
+ 241  MrRUN1                                     25.00%    passed     97.19%
+ 242  RCT1                                       23.73%    passed     86.01%
+ 243  tm2_sus                                    14.83%    passed     91.29%
+ 244  Tm2                                        14.83%    passed     93.71%
+ 245  Tm2-nv                                     14.83%    passed     95.54%
+ 246  Tm2_2                                      14.83%    passed     92.57%
+ 247  Napostrophe                                15.25%    passed     89.43%
+ 248  NbADR1                                     24.15%    passed     42.97%
+ 249  TNL2-PN40024                               24.58%    passed     55.37%
+ 250  Pi5-3                                      36.02%    passed     60.20%
+ 251  Sw5-b                                      13.98%    passed     99.94%
+ 252  Pi5-2                                      13.56%    passed     47.44%
+ 253  RAC1                                       25.42%    passed     67.18%
+ 254  RLM1B                                      22.88%    passed     99.16%
+ 255  BAR1                                       23.73%    passed     93.65%
+ 256  sr22-PI573523                              17.80%    passed     77.99%
+ 257  Sr22                                       17.80%    passed     81.91%
+ 258  SNC1                                       24.15%    passed     70.95%
+ 259  Ta7ANPR1-RGA4                              16.10%    passed     61.50%
+ 260  Ta7DNPR1-RGA4                              16.10%    passed     76.91%
+ 261  CHS1                                       46.19%    passed     51.58%
+ 262  PIK5-NP                                    18.64%    passed      6.74%
+ 263  Ty-2                                       15.25%    passed     73.07%
+ 264  WRR8_Sf-2                                  25.42%    passed     52.60%
+ 265  muRdr1A                                    25.00%    passed     53.55%
+ 266  muRdr1H                                    25.00%    passed     93.20%
+ 267  Rph1                                       16.10%    passed     66.95%
+ 268  AtNRG1.2                                   16.53%    passed     18.39%
+ 269  MLA25-1                                    16.53%    passed     94.43%
+ 270  Sr50                                       16.53%    passed     92.96%
+ 271  MLA28-1                                    16.53%    passed     90.25%
+ 272  MLA18-2                                    16.53%    passed     83.78%
+ 273  MLA6                                       16.53%    passed     88.10%
+ 274  MLA22                                      16.53%    passed     90.52%
+ 275  MLA16-1                                    16.53%    passed     77.05%
+ 276  MLA18-1                                    16.53%    passed     74.46%
+ 277  Ph-3                                       14.83%    passed     97.13%
+ 278  Sr46                                       13.56%    passed     95.76%
+ 279  ADR1-L3                                    25.85%    passed     37.08%
+ 280  RGC2B                                      14.83%    passed     23.08%
+ 281  NtTPN1                                     16.95%    passed     97.20%
+ 282  DSC1                                       23.73%    passed     80.01%
+ 283  Rpp1-R4                                    27.12%    passed     58.70%
+ 284  VG9514-Rgene                               36.86%    passed     72.04%
+ 285  RPS6                                       24.58%    passed     69.06%
+ 286  RLM3_Col                                   44.49%    passed     98.69%
+ 287  DM10_Col-0                                 41.10%    passed     98.51%
+ 288  RPP1-WsB                                   23.31%    passed     34.34%
+ 289  NbZAR1                                     13.98%    passed     98.17%
+ 290  Pbr1.c                                     15.25%    passed     81.54%
+ 291  R2                                         13.98%    passed     71.37%
+ 292  Rpi-blb3                                   13.98%    passed     81.15%
+ 293  Rpi-snk1.1                                 13.98%    passed     94.27%
+ 294  Rpi-hjt1.1                                 13.98%    passed     97.35%
+ 295  Rpi-hjt1.3                                 13.98%    passed     97.35%
+ 296  Rpi-snk1.2                                 15.25%    passed     92.68%
+ 297  RPP7_Mrk-0                                 15.25%    passed     89.64%
+ 298  Ngc-D                                      21.19%    passed     92.62%
+ 299  YrAS2388R                                  13.14%    passed     96.84%
+ 300  SUMM2                                      17.37%    passed     88.94%
+ 301  Rpi-hcb1.2                                 14.83%    passed     91.05%
+ 302  Rpi-mcq1.2                                 14.83%    passed     87.95%
+ 303  RPP4                                       25.42%    passed     73.23%
+ 304  Rpi-amr1e                                  15.68%    passed     97.88%
+ 305  PIK6-NP                                    16.95%    passed     96.42%
+ 306  Sr26                                       15.68%    passed     88.67%
+ 307  Lr10                                       15.25%    passed     99.25%
+ 308  Pbr1.b                                     15.68%    passed     84.40%
+ 309  NLS1                                       15.68%    passed     70.27%
+ 310  DES1                                       15.68%    passed     43.01%
+ 311  Sr35                                       15.68%    passed     45.01%
+ 312  Rpi-amr1e-2272                             15.68%    passed     87.58%
+ 313  Rpi-amr1e-3409                             15.68%    passed     98.75%
+ 314  Rpi-amr1e-2307                             15.68%    passed     98.75%
+ 315  Rx4                                        13.14%    passed     98.11%
+ 316  Pik-h1                                     18.64%    passed      9.70%
+ 317  LOV1                                       13.98%    passed     82.17%
+ 318  rpp8_sus                                   13.98%    passed     70.19%
+ 319  Hrt1                                       13.98%    passed     63.32%
+ 320  Pii-2                                      17.37%    passed     60.07%
+ 321  Lr1                                        16.10%    passed     97.32%
+ 322  Rpg1b                                      14.83%    passed     90.16%
+ 323  Rpg1r                                      14.83%    passed     91.98%
+ 324  BjuWRR1                                    15.25%    passed     46.19%
+ 325  Rpp1-R1                                    26.69%    passed     79.81%
+ 326  Gro1-4                                     25.00%    passed     26.01%
+ 327  Rph15                                      15.68%    passed     86.73%
+ 328  Fom-2                                      13.56%    passed     94.35%
+ 329  FB_MR5                                     15.68%    passed     99.92%
+ 330  AtNRG1.1                                   19.49%    passed     15.37%
+ 331  RDG2A                                      12.71%    passed     93.06%
+ 332  NRC1                                       13.98%    passed     66.59%
+ 333  NRC2                                       13.98%    passed     88.37%
+ 334  Pi63                                       16.10%    passed     96.17%
+ 335  Pi36                                       16.10%    passed     88.65%
+ 336  Rpr1                                       15.25%    passed     87.54%
+ 337  MrRPV1                                     25.00%    passed     53.87%
+ 338  MdNLR16                                    24.15%    passed     87.79%
+ 339  Pm41                                       16.10%    passed     88.91%
+ 340  RPP7_Koch-1                                15.25%    passed     92.97%
+ 341  PmR1                                       17.37%    passed     11.80%
+ 342  HvPm3                                      13.56%    passed     88.75%
+ 343  Pm17                                       13.56%    passed     98.25%
+ 344  Pm8                                        13.56%    passed     98.44%
+ 345  Le4                                        15.25%    passed     85.02%
+ 346  Pid3                                       13.98%    passed     43.80%
+ 347  Pid3-W3                                    13.98%    passed     43.80%
+ 348  Pit                                        14.41%    passed     99.59%
+ 349  ZAR1                                       14.41%    passed     80.78%
+ 350  Rpi-amr1e-2271                             16.10%    passed     99.94%
+ 351  GmNNL1_HT1                                 25.42%    passed     78.33%
+ 352  WRR4B_Col-0                                22.46%    passed     72.46%
+ 353  WRR4A_HR-5                                 22.46%    passed     74.64%
+ 354  WRR4B_Ws-2                                 22.46%    passed     72.46%
+ 355  ADR1                                       22.03%    passed     22.01%
+ 356  Yr7                                        16.10%    passed     76.83%
+ 357  R3b                                        16.53%    passed     99.91%
+ 358  RSG3-301                                   15.25%    passed     77.68%
+ 359  RPS2                                       17.37%    passed     43.94%
+ 360  M                                          20.34%    passed     83.55%
+ 361  L9                                         20.34%    passed     97.88%
+ 362  L4                                         20.34%    passed     77.39%
+ 363  L                                          20.34%    passed     76.50%
+ 364  L5                                         20.34%    passed     64.19%
+ 365  LH                                         20.34%    passed     78.08%
+ 366  L2                                         20.34%    passed     84.90%
+ 367  Rj2                                        21.19%    passed     55.16%
+ 368  3gG2                                       14.83%    passed     96.96%
+ 369  CAR1                                       14.41%    passed     29.58%
+ 370  RPP13-Rld-2                                12.71%    passed     76.74%
+ 371  RCY1                                       15.25%    passed     63.18%
+ 372  RPS4                                       22.03%    passed     68.01%
+ 373  RPS4-Ws                                    22.03%    passed     73.84%
+ 374  RPS4_No-0                                  22.03%    passed     66.73%
+ 375  GhDSC1                                     25.00%    passed     44.73%
+ 376  Ta7ANPR1                                   24.15%    passed     82.78%
+ 377  DM10_Tuescha9                              40.68%    passed     98.33%
+ 378  RPP1-WsC                                   22.88%    passed     75.09%
+ 379  DM2h_Ler                                   22.46%    passed     56.10%
+ 380  Dm2h_Bla-1                                 22.46%    passed     65.26%
+ 381  HRG1                                       23.73%    passed     80.56%
+ 382  Rpi-edn1.1                                 13.98%    passed     76.93%
+ 383  RGA2a                                      16.95%    passed     97.48%
+ 384  Rpi-amr1e-2300                             15.68%    passed     98.82%
+ 385  CaMi                                       15.25%    passed     86.54%
+ 386  Pm2h                                       14.41%    passed     65.42%
+ 387  Ta7DNPR1                                   14.41%    passed     85.65%
+ 388  TAG24-Rgene                                39.83%    passed     65.08%
+ 389  TaRPP13-3                                  12.71%    passed     67.11%
+ 390  ADR1-L2                                    22.88%    passed      5.45%
+ 391  beta-WOLF6b                                13.98%    passed     71.40%
+ 392  Sr45                                       13.98%    passed     74.49%
+ 393  Wed                                        28.81%    passed     61.05%
+ 394  Rcg1                                       18.22%    passed     83.26%
+ 395  RPP2B                                      32.63%    passed     69.43%
+ 396  Ta4ANPR1                                   15.68%    passed     79.26%
+ 397  Yr-10                                      13.14%    passed     89.98%
+ 398  Rp3-1                                      19.07%    passed     30.31%
+ 399  Tsn1                                       17.37%    passed     18.35%
+ 400  Mal-R                                      14.83%    passed     75.85%
+ 401  Ta4ANPR1-RGA4                              49.15%    passed     73.00%
+ 402  RPS4B                                      21.61%    passed     89.38%
+ 403  CD3.1                                      13.98%    passed     54.26%
+ 404  RPS5                                       16.95%    passed     97.05%
+ 405  Pm21                                       15.68%    passed     97.15%
+ 406  SIKIC2                                     25.85%    passed     67.59%
+ 407  RPP5                                       25.85%    passed     69.73%
+ 408  Adnr1                                      13.14%    passed     95.92%
+ 409  YrU1                                       13.14%    passed     93.87%
+ 410  Rx2                                        13.14%    passed     90.43%
+ 411  Gpa2                                       13.14%    passed     84.87%
+ 412  Rx                                         13.14%    passed     63.32%
+ 413  Pm2d                                       14.41%    passed     38.80%
+ 414  Pm2f                                       14.41%    passed     45.25%
+ 415  Pm2a                                       14.41%    passed     38.80%
+ 416  Pm2g                                       14.41%    passed     45.25%
+ 417  CNL-11990                                  13.56%    passed     78.33%
+ 418  Rpi-nig3-1084a                             13.56%    passed     72.46%
+ 419  Rpi-amr3                                   13.56%    passed     90.10%
+ 420  Rpi-amr3-2300                              13.56%    passed     90.10%
+ 421  NbPRFa                                     13.14%    passed     96.16%
+ 422  NbNRC3                                     14.83%    passed     79.13%
+ 423  Pm5b                                       17.37%    passed     95.18%
+ 424  YrSP                                       17.37%    passed     89.09%
+ 425  Yr5                                        16.10%    passed     86.82%
+ 426  Pvr4                                       20.34%    passed     64.14%
+ 427  Rpp4C4                                     18.22%    passed     92.48%
+ 428  LAZ5                                       39.83%    passed     80.73%
+ 429  Rpi-amr3-2307                              13.56%    passed     72.69%
+ 430  Prf                                        13.98%    passed     93.43%
+ 431  Pl17                                       25.00%    passed     75.75%
+ 432  Rps1-k-2                                   13.14%    passed     94.88%
+ 433  Rps1-k-1                                   13.14%    passed     95.71%
+ 434  TmPm3                                      16.10%    passed     69.64%
+ 435  VICTR                                      22.46%    passed     77.84%
+ 436  DSC2                                       24.15%    passed     63.99%
+ 437  GbaNA1                                     15.68%    passed     36.19%
+ 438  Pi37                                       16.95%    passed     87.52%
+ 439  Pish                                       16.95%    passed     91.86%
+ 440  Pi35                                       16.95%    passed     91.86%
+ 441  WRKY19                                     23.31%    passed     28.91%
+ 442  RRS1B                                      25.85%    passed     93.69%
+ 443  Lr13_ha                                    14.41%    passed     42.13%
+ 444  Lr13_hb                                    14.41%    passed     35.92%
+ 445  Dm2h_Uk-1                                  22.88%    passed     56.03%
+ 446  Pik-1                                      18.64%    passed      5.26%
+ 447  SpNBS-LRR                                  19.07%    passed     87.03%
+ 448  Pi64                                       16.95%    passed     73.45%
+ 449  Fom-1                                      25.00%    passed      8.96%
+ 450  PvLOV                                      14.83%    passed     97.77%
+ 451  Bph14                                      13.14%    passed     76.21%
+ 452  MLA12                                      16.53%    passed     88.53%
+ 453  MLA39-1                                    16.53%    passed     89.90%
+ 454  TmMLA1                                     16.53%    passed     93.96%
+ 455  Sr33                                       16.53%    passed     88.83%
+ 456  WRR9_Hi-0                                  22.46%    passed     68.80%
+ 457  Rxo1                                       17.37%    passed     98.94%
+ 458  Rsv3                                       21.61%    passed     52.04%
+ 459  WA02_paired_TRINITY_DN1067_c0_g2_i2_p1     36.86%    passed     90.91%
+ 460  WA02_paired_TRINITY_DN15078_c0_g1_i2_p1    13.98%    passed     97.97%
+ 461  WA02_paired_TRINITY_DN1067_c0_g2_i5_p1     14.41%    passed     99.83%
+ 462  WA02_paired_TRINITY_DN3476_c0_g1_i6_p1     20.76%    passed     69.99%
+ 463  WA02_paired_TRINITY_DN2020_c0_g2_i3_p1     14.41%    passed     99.62%
+ 464  WA02_paired_TRINITY_DN87036_c0_g1_i1_p1    23.73%    passed     72.71%
+ 465  WA02_paired_TRINITY_DN88617_c0_g1_i1_p1    14.83%    passed     91.22%
+ 466  WA02_paired_TRINITY_DN350_c0_g1_i10_p1     13.14%    passed     95.28%
+ 467  WA02_paired_TRINITY_DN350_c0_g1_i3_p1      13.14%    passed     98.55%
+ 468  WA02_paired_TRINITY_DN350_c0_g1_i16_p1     13.14%    passed     96.04%
+ 469  WA02_paired_TRINITY_DN37677_c0_g1_i2_p1    24.15%    passed     98.33%
+ 470  WA02_paired_TRINITY_DN72_c0_g1_i9_p1       15.25%    passed     95.92%
+ 471  WA03_paired_TRINITY_DN11842_c0_g1_i2_p1    14.83%    passed     96.75%
+ 472  WA03_paired_TRINITY_DN5043_c0_g1_i10_p1    13.98%    passed     85.82%
+ 473  WA03_paired_TRINITY_DN23510_c0_g1_i12_p1   16.95%    passed     98.09%
+ 474  WA03_paired_TRINITY_DN9495_c0_g1_i1_p1     15.68%    passed     97.88%
+ 475  WA03_paired_TRINITY_DN257_c2_g1_i5_p1      20.76%    passed     72.16%
+ 476  WA03_paired_TRINITY_DN226403_c0_g1_i1_p1   39.83%    passed     96.12%
+ 477  WA03_paired_TRINITY_DN49975_c0_g1_i2_p1    19.92%    passed     74.11%
+ 478  WA03_paired_TRINITY_DN529_c0_g1_i6_p1      14.83%    passed     87.83%
+ 479  WA03_paired_TRINITY_DN8079_c0_g1_i4_p1     15.68%    passed     55.58%
+ 480  WA03_paired_TRINITY_DN13095_c0_g2_i4_p1    19.92%    passed     26.88%
+ 481  WA03_paired_TRINITY_DN143433_c0_g1_i2_p1   14.41%    passed     97.11%
+ 482  WA03_paired_TRINITY_DN16294_c0_g1_i1_p1    51.27%    passed     37.72%
+ 483  WA03_paired_TRINITY_DN806_c0_g1_i2_p1      13.98%    passed     95.27%
+ 484  WA03_paired_TRINITY_DN4318_c0_g2_i3_p1     14.41%    passed     99.70%
+ 485  WA03_paired_TRINITY_DN4318_c0_g2_i12_p1    14.41%    passed     99.07%
+ 486  WA03_paired_TRINITY_DN11016_c0_g1_i4_p1    14.41%    passed     58.67%
+ 487  WA03_paired_TRINITY_DN29927_c0_g1_i1_p1    38.14%    passed     40.70%
+ 488  WA03_paired_TRINITY_DN126454_c0_g1_i1_p1   24.15%    passed     66.94%
+ 489  WA07_paired_TRINITY_DN2204_c0_g1_i2_p1     19.07%    passed     38.27%
+ 490  WA07_paired_TRINITY_DN11094_c0_g1_i3_p1    52.12%    failed      3.08%
+ 491  WA07_paired_TRINITY_DN11094_c0_g1_i1_p1    52.12%    failed      1.36%
+ 492  WA07_paired_TRINITY_DN11094_c0_g1_i4_p1    52.12%    passed      8.12%
+ 493  WA07_paired_TRINITY_DN11094_c0_g1_i2_p1    52.12%    failed      3.29%
+ 494  WA07_paired_TRINITY_DN113168_c0_g1_i1_p1   36.86%    passed     42.31%
+ 495  WA07_paired_TRINITY_DN5426_c0_g1_i8_p1     16.10%    passed     90.45%
+ 496  WA07_paired_TRINITY_DN15367_c0_g2_i1_p1    36.86%    passed     19.48%
+ 497  WA07_paired_TRINITY_DN3447_c0_g3_i2_p1     12.71%    passed     99.03%
+ 498  WA07_paired_TRINITY_DN1349_c0_g1_i2_p1     19.92%    passed     84.16%
+ 499  WA07_paired_TRINITY_DN36251_c0_g2_i1_p1    62.71%    passed     87.88%
+ 500  WA07_paired_TRINITY_DN2038_c0_g4_i1_p1     12.71%    passed     98.47%
+ 501  WA07_paired_TRINITY_DN47862_c0_g1_i1_p1    20.34%    passed     81.68%
+ 502  WA07_paired_TRINITY_DN15367_c0_g1_i1_p1    51.69%    passed     98.17%
+ 503  WA07_paired_TRINITY_DN7338_c0_g1_i1_p1     69.49%    passed     88.25%
+ 504  WA07_paired_TRINITY_DN13370_c0_g1_i3_p1    27.12%    passed     52.84%
+ 505  WA07_paired_TRINITY_DN3447_c0_g4_i3_p1     26.69%    passed     88.10%
+ 506  WA07_paired_TRINITY_DN3447_c0_g4_i1_p1     26.69%    passed     87.15%
+ 507  WA07_paired_TRINITY_DN128876_c0_g1_i1_p1   39.83%    passed     51.61%
+ 508  WA07_paired_TRINITY_DN5400_c0_g1_i4_p1     30.08%    passed     88.97%
+ 509  WA07_paired_TRINITY_DN5521_c0_g1_i3_p1     25.85%    passed     99.50%
+ 510  WA07_paired_TRINITY_DN4648_c0_g1_i15_p1    56.78%    passed     21.95%
+ 511  WA07_paired_TRINITY_DN3829_c0_g1_i4_p1     13.14%    passed     99.36%
+ 512  WA07_paired_TRINITY_DN1788_c0_g1_i1_p1     26.27%    passed     99.02%
+ 513  WA07_paired_TRINITY_DN10413_c0_g1_i2_p1    37.29%    passed     45.32%
+ 514  WA07_paired_TRINITY_DN17511_c0_g1_i5_p1    58.05%    passed     75.98%
+ 515  WA07_paired_TRINITY_DN21962_c0_g1_i2_p1    82.63%    passed     17.28%
+ 516  WA07_paired_TRINITY_DN48944_c0_g1_i1_p1    14.41%    passed     32.71%
+ 517  WA07_paired_TRINITY_DN3132_c0_g2_i6_p1     16.10%    passed     88.74%
+ 518  WA07_paired_TRINITY_DN6703_c0_g1_i12_p1    43.64%    passed     70.03%
+ 519  WA07_paired_TRINITY_DN17511_c0_g1_i4_p1    30.08%    passed     85.13%
+ 520  WA07_paired_TRINITY_DN15406_c0_g2_i1_p1    80.08%    failed      4.06%
+ 521  WA07_paired_TRINITY_DN43123_c0_g1_i2_p1    56.78%    passed     80.81%
+ 522  WA07_paired_TRINITY_DN18443_c0_g1_i3_p1    54.24%    passed     80.94%
+ 523  WA07_paired_TRINITY_DN1371_c0_g1_i1_p1     13.98%    passed     99.92%
+ 524  WA07_paired_TRINITY_DN10879_c0_g2_i8_p1    54.24%    passed     55.08%
+ 525  WA08_paired_TRINITY_DN23_c0_g1_i2_p1       13.98%    passed     97.97%
+ 526  WA08_paired_TRINITY_DN3573_c0_g1_i5_p1     20.76%    passed     65.81%
+ 527  WA08_paired_TRINITY_DN1692_c0_g2_i1_p1     14.41%    passed     99.38%
+ 528  WA08_paired_TRINITY_DN73577_c0_g1_i1_p1    23.73%    passed     72.71%
+ 529  WA08_paired_TRINITY_DN57702_c1_g1_i1_p1    53.39%    passed     64.57%
+ 530  WA08_paired_TRINITY_DN50426_c0_g4_i1_p1    24.15%    passed     98.33%
+ 531  WA08_paired_TRINITY_DN1692_c0_g2_i3_p1     18.22%    passed     97.07%
+ 532  WA08_paired_TRINITY_DN558_c0_g1_i14_p1     50.85%    passed     49.33%
+ 533  WA08_paired_TRINITY_DN1728_c0_g1_i7_p1     46.61%    passed     97.10%
+ 534  WA08_paired_TRINITY_DN10927_c0_g1_i5_p1    12.71%    passed     78.52%
+ 535  WA09_paired_TRINITY_DN1856_c0_g1_i9_p1     61.02%    passed     24.62%
+ 536  WA09_paired_TRINITY_DN22413_c0_g1_i2_p1    16.10%    passed     94.46%
+ 537  WA09_paired_TRINITY_DN22413_c0_g1_i1_p1    16.10%    passed     99.79%
+ 538  WA09_paired_TRINITY_DN48418_c0_g1_i1_p1    17.80%    passed     99.05%
+ 539  WA09_paired_TRINITY_DN1856_c0_g1_i2_p1     73.73%    passed     75.89%
+ 540  WA09_paired_TRINITY_DN49299_c0_g1_i1_p1    46.61%    passed     92.02%
+ 541  WA09_paired_TRINITY_DN14703_c0_g1_i9_p1    25.42%    passed     83.04%
+ 542  WA09_paired_TRINITY_DN1856_c0_g1_i3_p1     19.92%    passed     95.67%
+ 543  WA11_paired_TRINITY_DN17537_c0_g1_i2_p1    46.19%    passed     19.95%
+ 544  WA11_paired_TRINITY_DN29718_c0_g5_i2_p1    41.10%    passed     40.24%
+ 545  WA11_paired_TRINITY_DN1126_c2_g1_i16_p1    52.54%    passed     36.12%
+ 546  WA11_paired_TRINITY_DN1126_c2_g1_i7_p1     33.90%    passed     67.61%
+ 547  WA11_paired_TRINITY_DN1714_c0_g1_i10_p1    21.19%    passed     75.27%
+ 548  WA11_paired_TRINITY_DN7394_c0_g1_i2_p1     19.07%    passed     51.69%
+ 549  WA11_paired_TRINITY_DN24702_c0_g1_i1_p1    15.25%    passed     28.57%
+ 550  WA11_paired_TRINITY_DN6001_c0_g1_i9_p1     16.95%    passed    100.00%
+ 551  WA11_paired_TRINITY_DN7146_c0_g1_i2_p1     52.54%    passed     61.68%
+ 552  WA11_paired_TRINITY_DN18032_c0_g1_i9_p1    14.83%    passed     95.07%
+ 553  WA11_paired_TRINITY_DN18032_c0_g1_i14_p1   14.83%    passed     97.63%
+ 554  WA11_paired_TRINITY_DN86111_c0_g1_i1_p1    23.31%    passed     77.46%
+ 555  WA11_paired_TRINITY_DN7394_c0_g1_i1_p1     18.64%    passed     58.16%
+ 556  WA11_paired_TRINITY_DN7394_c0_g1_i7_p1     28.39%    passed     49.94%
+ 557  WA11_paired_TRINITY_DN15275_c0_g1_i3_p1    25.00%    passed     56.97%
+ 558  WA11_paired_TRINITY_DN16543_c0_g2_i1_p1    22.46%    passed     99.43%
+ 559  WA11_paired_TRINITY_DN13778_c0_g1_i3_p1    58.90%    passed     71.63%
+ 560  WA11_paired_TRINITY_DN5122_c0_g2_i1_p1     14.83%    passed     98.70%
+ 561  WA12_paired_TRINITY_DN38753_c0_g1_i2_p1    44.92%    passed     44.40%
+ 562  WA12_paired_TRINITY_DN3839_c0_g2_i2_p1     57.20%    passed     59.82%
+ 563  WA12_paired_TRINITY_DN2651_c0_g1_i9_p1     15.25%    passed     90.17%
+ 564  WA12_paired_TRINITY_DN14194_c0_g1_i1_p1    56.78%    passed     93.78%
+ 565  WA12_paired_TRINITY_DN184921_c0_g1_i1_p1   23.73%    passed     97.65%
+ 566  WA12_paired_TRINITY_DN18319_c0_g1_i1_p1    21.61%    passed     97.20%
+ 567  WA12_paired_TRINITY_DN19717_c0_g1_i3_p1    43.64%    passed     43.49%
+ 568  WA12_paired_TRINITY_DN54076_c0_g1_i1_p1    52.54%    passed     31.26%
+ 569  WA12_paired_TRINITY_DN2651_c0_g1_i1_p1     15.25%    passed     82.98%
+ 570  WA12_paired_TRINITY_DN20375_c2_g1_i2_p1    20.34%    passed     99.56%
+ 571  WA12_paired_TRINITY_DN20375_c2_g1_i3_p1    20.34%    passed     99.77%
+ 572  WA12_paired_TRINITY_DN26063_c1_g2_i1_p1    51.27%    passed     61.06%
+ 573  WA12_paired_TRINITY_DN1656_c0_g1_i11_p1    24.58%    passed     57.62%
+ 574  WA12_paired_TRINITY_DN3228_c0_g1_i29_p1    50.85%    passed     78.82%
+ 575  WA12_paired_TRINITY_DN1779_c0_g1_i13_p1    13.98%    passed     88.30%
+ 576  WA12_paired_TRINITY_DN44145_c0_g1_i1_p1    13.56%    passed     96.80%
+ 577  WA12_paired_TRINITY_DN6187_c0_g2_i9_p1     21.61%    passed     45.92%
+ 578  WA12_paired_TRINITY_DN6187_c0_g2_i12_p1    21.61%    passed     29.57%
+ 579  WA12_paired_TRINITY_DN3839_c0_g3_i5_p1     16.95%    passed     90.40%
+ 580  WA12_paired_TRINITY_DN12253_c0_g1_i1_p1    33.47%    passed     90.49%
+ 581  WA12_paired_TRINITY_DN10927_c0_g1_i4_p1    52.12%    passed     50.10%
+ 582  WA12_paired_TRINITY_DN3455_c0_g2_i15_p1    14.41%    passed     71.45%
+ 583  WA12_paired_TRINITY_DN2651_c0_g1_i6_p1     17.37%    passed     92.45%
+ 584  WA12_paired_TRINITY_DN29415_c2_g1_i1_p1    46.61%    passed     93.81%
+ 585  WA12_paired_TRINITY_DN628_c0_g2_i1_p1      13.98%    passed     82.35%
+ 586  WA12_paired_TRINITY_DN134162_c0_g1_i1_p1   13.98%    passed     44.35%
+ 587  WA12_paired_TRINITY_DN19117_c0_g2_i2_p1    50.85%    passed     96.40%
+ 588  WA12_paired_TRINITY_DN2495_c1_g1_i1_p1     13.98%    passed     89.01%
+ 589  WA12_paired_TRINITY_DN5271_c0_g1_i2_p1     15.68%    passed     99.21%
+ 590  WA12_paired_TRINITY_DN5271_c0_g1_i1_p1     14.41%    passed     98.53%
+ 591  WA12_paired_TRINITY_DN4046_c0_g1_i7_p1     13.56%    passed     72.59%
+ 592  WA12_paired_TRINITY_DN3455_c0_g1_i1_p1     13.56%    passed     92.44%
+ 593  WA12_paired_TRINITY_DN38112_c1_g1_i1_p1    56.78%    passed     33.36%
+ 594  WA12_paired_TRINITY_DN19319_c1_g1_i13_p1   12.29%    passed     98.96%
+ 595  WA13_paired_TRINITY_DN21619_c0_g1_i1_p1    18.22%    passed     96.71%
+ 596  WA13_paired_TRINITY_DN5027_c0_g1_i3_p1     14.83%    passed     97.10%
+ 597  WA13_paired_TRINITY_DN5027_c0_g1_i9_p1     14.83%    passed     96.95%
+ 598  WA13_paired_TRINITY_DN232_c0_g2_i2_p1      15.68%    passed     93.20%
+ 599  WA13_paired_TRINITY_DN4033_c0_g3_i1_p1     36.44%    passed     86.52%
+ 600  WA13_paired_TRINITY_DN1510_c0_g1_i1_p1     22.88%    passed     77.07%
+ 601  WA13_paired_TRINITY_DN232_c0_g1_i6_p1      13.98%    passed     59.56%
+ 602  WA13_paired_TRINITY_DN8953_c0_g1_i2_p1     17.37%    passed     60.97%
+ 603  WA13_paired_TRINITY_DN564_c0_g1_i11_p1     18.22%    passed     91.35%
+ 604  WA13_paired_TRINITY_DN232_c0_g1_i5_p1      13.98%    passed     59.56%
+ 605  WA13_paired_TRINITY_DN1776_c0_g1_i2_p1     27.12%    passed     72.98%
+ 606  WA13_paired_TRINITY_DN1776_c0_g1_i1_p1     27.12%    passed     71.27%
+ 607  WA13_paired_TRINITY_DN16307_c0_g1_i2_p1    24.15%    passed     98.62%
+ 608  WA13_paired_TRINITY_DN11294_c0_g1_i1_p1    19.07%    passed     54.11%
+ 609  WA13_paired_TRINITY_DN1337_c0_g3_i3_p1     38.14%    passed     47.47%
+ 610  WA13_paired_TRINITY_DN3575_c0_g1_i1_p1     13.98%    passed     87.82%
+ 611  WA13_paired_TRINITY_DN1842_c0_g1_i6_p1     57.20%    passed     81.24%
+ 612  WA13_paired_TRINITY_DN94056_c0_g1_i1_p1    13.98%    passed     97.97%
+ 613  WA13_paired_TRINITY_DN37427_c0_g1_i1_p1    19.07%    passed     37.88%
+ 614  WA13_paired_TRINITY_DN18092_c0_g1_i1_p1    14.83%    passed     95.65%
+ 615  WA13_paired_TRINITY_DN36811_c0_g1_i1_p1    13.98%    passed     60.12%
+ 616  WA13_paired_TRINITY_DN20667_c0_g1_i2_p1    14.83%    passed     97.12%
+ 617  WA13_paired_TRINITY_DN32488_c0_g2_i1_p1    56.36%    passed     53.00%
+ 618  WA13_paired_TRINITY_DN4347_c0_g1_i3_p1     20.34%    passed     96.43%
+ 619  WA13_paired_TRINITY_DN16456_c0_g2_i4_p1    15.25%    passed     82.76%
+ 620  WA13_paired_TRINITY_DN384_c1_g1_i1_p1      41.53%    passed     60.98%
+ 621  WA13_paired_TRINITY_DN384_c1_g1_i11_p1     41.53%    passed     81.81%
+ 622  WA13_paired_TRINITY_DN1361_c1_g1_i4_p1     14.83%    passed     99.07%
+ 623  WA13_paired_TRINITY_DN1361_c1_g1_i6_p1     14.83%    passed     98.75%
+ 624  WA13_paired_TRINITY_DN564_c0_g1_i7_p1      18.22%    passed     85.06%
+ 625  WA13_paired_TRINITY_DN2822_c0_g2_i1_p1     22.03%    passed     32.48%
+ 626  WA13_paired_TRINITY_DN564_c0_g1_i13_p1     19.07%    passed     51.73%
+ 627  WA13_paired_TRINITY_DN5027_c0_g1_i2_p1     44.49%    passed     90.60%
+ 628  WA13_paired_TRINITY_DN1333_c0_g1_i2_p1     13.56%    passed     77.36%
+ 629  WA13_paired_TRINITY_DN1842_c0_g2_i2_p1     14.41%    passed     98.07%
+ 630  WA14_paired_TRINITY_DN7853_c0_g1_i9_p1     22.03%    passed     87.22%
+ 631  WA14_paired_TRINITY_DN38071_c0_g1_i2_p1    62.71%    passed     89.63%
+ 632  WA14_paired_TRINITY_DN2871_c0_g1_i1_p1     15.25%    passed     99.76%
+ 633  WA14_paired_TRINITY_DN2090_c0_g1_i2_p1     19.92%    passed      7.67%
+ 634  WA14_paired_TRINITY_DN2090_c0_g1_i5_p1     19.92%    passed     13.52%
+ 635  WA14_paired_TRINITY_DN9346_c0_g1_i11_p1    32.63%    passed     94.88%
+ 636  WA14_paired_TRINITY_DN1702_c0_g2_i3_p1     19.92%    passed     96.28%
+ 637  WA14_paired_TRINITY_DN20920_c0_g1_i8_p1    54.24%    passed     23.17%
+ 638  WA14_paired_TRINITY_DN28136_c0_g1_i1_p1    52.12%    passed     77.28%
+ 639  WA14_paired_TRINITY_DN5698_c0_g1_i14_p1    37.29%    passed     38.71%
+ 640  WA14_paired_TRINITY_DN2404_c0_g1_i13_p1    21.61%    passed     99.76%
+ 641  WA14_paired_TRINITY_DN1391_c0_g1_i37_p1    18.22%    passed     89.69%
+ 642  WA14_paired_TRINITY_DN860_c0_g1_i5_p1      22.46%    passed     93.73%
+ 643  WA14_paired_TRINITY_DN7338_c0_g2_i1_p1     36.86%    passed     43.04%
+ 644  WA14_paired_TRINITY_DN16077_c0_g1_i2_p1    15.68%    passed     85.25%
+ 645  WA14_paired_TRINITY_DN784_c0_g1_i1_p1      46.19%    passed     40.81%
+ 646  WA14_paired_TRINITY_DN1523_c0_g1_i5_p1     44.92%    passed     76.10%
+ 647  WA14_paired_TRINITY_DN7862_c0_g2_i5_p1     19.07%    passed     96.23%
+ 648  WA14_paired_TRINITY_DN3560_c0_g1_i4_p1     24.15%    passed     99.60%
+ 649  WA14_paired_TRINITY_DN4522_c0_g3_i1_p1     58.47%    passed     53.35%
+ 650  WA14_paired_TRINITY_DN5698_c0_g1_i16_p1    42.37%    passed     75.93%
+ 651  WA14_paired_TRINITY_DN1487_c1_g5_i1_p1     20.76%    passed     94.98%
+ 652  WA14_paired_TRINITY_DN23785_c1_g1_i1_p1    58.05%    passed     35.34%
+ 653  WA14_paired_TRINITY_DN2821_c0_g1_i7_p1     25.85%    passed     99.62%
+ 654  WA14_paired_TRINITY_DN122097_c0_g1_i1_p1   14.83%    passed     79.84%
+ 655  WA14_paired_TRINITY_DN1964_c0_g1_i3_p1     14.83%    passed     82.94%
+ 656  WA14_paired_TRINITY_DN2628_c0_g1_i4_p1     13.98%    passed     99.70%
+ 657  WA14_paired_TRINITY_DN14_c1_g1_i2_p1       19.49%    passed     84.98%
+ 658  WA14_paired_TRINITY_DN1140_c0_g1_i11_p1    19.49%    passed     91.04%
+ 659  WA14_paired_TRINITY_DN689_c0_g1_i8_p1      15.25%    passed     88.09%
+ 660  WA14_paired_TRINITY_DN2404_c0_g1_i7_p1     12.71%    passed     91.70%
+ 661  WA14_paired_TRINITY_DN2821_c0_g1_i3_p1     16.10%    passed     74.53%
+ 662  WA14_paired_TRINITY_DN16894_c1_g1_i1_p1    52.12%    passed     86.53%
+ 663  WA14_paired_TRINITY_DN4181_c0_g2_i2_p1     13.14%    passed     99.86%
+ 664  WA14_paired_TRINITY_DN1987_c0_g2_i5_p1     41.10%    passed     86.92%
+ 665  WA14_paired_TRINITY_DN1987_c0_g2_i11_p1    23.31%    passed     83.58%
+ 666  WA14_paired_TRINITY_DN23980_c0_g2_i5_p1    13.98%    passed     98.20%
+ 667  WA14_paired_TRINITY_DN1487_c0_g1_i4_p1     19.92%    passed     96.32%
+ 668  WA14_paired_TRINITY_DN2052_c0_g2_i1_p1     14.41%    passed     97.29%
+ 669  WA14_paired_TRINITY_DN13989_c0_g1_i2_p1    51.69%    passed     92.72%
+ 670  WA14_paired_TRINITY_DN13989_c0_g1_i4_p1    67.80%    passed     82.73%
+ 671  WA14_paired_TRINITY_DN13989_c0_g1_i3_p1    56.78%    passed     86.94%
+ 672  WA14_paired_TRINITY_DN78806_c0_g1_i1_p1    36.44%    passed     45.99%
+ 673  WA14_paired_TRINITY_DN2821_c0_g1_i8_p1     15.68%    passed     82.27%
+ 674  WA14_paired_TRINITY_DN12974_c1_g2_i5_p1    54.24%    passed     80.45%
+ 675  WA14_paired_TRINITY_DN5698_c0_g1_i15_p1    50.85%    passed     11.62%
+ 676  WA14_paired_TRINITY_DN5698_c0_g1_i4_p1     50.85%    passed      5.18%
+ 677  WA18_paired_TRINITY_DN234_c0_g1_i12_p1     15.25%    passed     92.36%
+ 678  WA18_paired_TRINITY_DN234_c0_g1_i10_p1     15.25%    passed     94.11%
+ 679  WA18_paired_TRINITY_DN123330_c0_g1_i1_p1   24.58%    passed     18.81%
+ 680  WA18_paired_TRINITY_DN12089_c1_g1_i3_p1    19.07%    passed     84.11%
+ 681  WA18_paired_TRINITY_DN100611_c0_g1_i1_p1   17.80%    passed     83.07%
+ 682  WA18_paired_TRINITY_DN3855_c0_g2_i2_p1     46.19%    passed     24.11%
+ 683  WA18_paired_TRINITY_DN511_c1_g1_i10_p1     72.46%    passed     51.82%
+ 684  WA18_paired_TRINITY_DN511_c1_g1_i12_p1     72.46%    passed     42.20%
+ 685  WA18_paired_TRINITY_DN2200_c0_g1_i2_p1     23.73%    passed     72.95%
+ 686  WA18_paired_TRINITY_DN234_c0_g1_i2_p1      39.83%    passed     90.74%
+ 687  WA18_paired_TRINITY_DN84391_c0_g1_i1_p1    13.14%    passed     93.88%
+ 688  WA18_paired_TRINITY_DN12910_c0_g1_i1_p1    32.20%    passed     80.52%
+ 689  WA18_paired_TRINITY_DN1024_c0_g2_i4_p1     13.56%    passed     90.99%
+ 690  WA26_paired_TRINITY_DN37_c1_g2_i1_p1       15.68%    passed     82.54%
+WARNING: 71 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                      24.04%  7 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: WA13_paired_TRINITY_DN8953_c0_g1_i2_p1 is identical to DAL192_TRINITY_DN3828_c0_g1_i4_p1 but kept for subsequent analysis
+NOTE: WA13_paired_TRINITY_DN11294_c0_g1_i1_p1 is identical to DAL192_TRINITY_DN66060_c0_g1_i1_p1 but kept for subsequent analysis
+NOTE: WA13_paired_TRINITY_DN3575_c0_g1_i1_p1 is identical to DAL192_TRINITY_DN9090_c0_g1_i1_p1 but kept for subsequent analysis
+NOTE: WA13_paired_TRINITY_DN37427_c0_g1_i1_p1 is identical to DAL192_TRINITY_DN12508_c0_g1_i3_p1 but kept for subsequent analysis
+NOTE: WA13_paired_TRINITY_DN20667_c0_g1_i2_p1 is identical to DAL192_TRINITY_DN2341_c0_g1_i5_p1 but kept for subsequent analysis
+NOTE: WA12_paired_TRINITY_DN184921_c0_g1_i1_p1 is identical to DAL193_TRINITY_DN10390_c1_g2_i3_p1 but kept for subsequent analysis
+NOTE: WA12_paired_TRINITY_DN2495_c1_g1_i1_p1 is identical to DAL193_TRINITY_DN83054_c0_g1_i2_p1 but kept for subsequent analysis
+NOTE: WA14_paired_TRINITY_DN689_c0_g1_i8_p1 is identical to DAL212_TRINITY_DN7138_c0_g1_i1_p1 but kept for subsequent analysis
+NOTE: WA14_paired_TRINITY_DN1487_c0_g1_i4_p1 is identical to DAL212_TRINITY_DN5560_c0_g4_i1_p1 but kept for subsequent analysis
+NOTE: WA03_paired_TRINITY_DN5043_c0_g1_i10_p1 is identical to DAL218_TRINITY_DN7574_c0_g1_i6_p1 but kept for subsequent analysis
+NOTE: WA07_paired_TRINITY_DN2204_c0_g1_i2_p1 is identical to DAL224_TRINITY_DN787_c1_g1_i3_p1 but kept for subsequent analysis
+NOTE: WA07_paired_TRINITY_DN3829_c0_g1_i4_p1 is identical to DAL224_TRINITY_DN1421_c0_g1_i5_p1 but kept for subsequent analysis
+NOTE: WA07_paired_TRINITY_DN113168_c0_g1_i1_p1 is identical to DAL224_TRINITY_DN71009_c0_g1_i1_p1 but kept for subsequent analysis
+NOTE: WA07_paired_TRINITY_DN48944_c0_g1_i1_p1 is identical to DAL224_TRINITY_DN9432_c0_g1_i3_p1 but kept for subsequent analysis
+NOTE: Pik-p1 is identical to Pi7-J-1 but kept for subsequent analysis
+NOTE: Xa1 is identical to Xo1 but kept for subsequent analysis
+NOTE: P2 is identical to P but kept for subsequent analysis
+NOTE: NbNRC4c is identical to NbNRC4a but kept for subsequent analysis
+NOTE: L_4 is identical to L_2b but kept for subsequent analysis
+NOTE: Rpi-hjt1.3 is identical to Rpi-hjt1.1 but kept for subsequent analysis
+NOTE: Rpi-amr1e-2307 is identical to Rpi-amr1e-3409 but kept for subsequent analysis
+NOTE: Pid3-W3 is identical to Pid3 but kept for subsequent analysis
+NOTE: WRR4B_Ws-2 is identical to WRR4B_Col-0 but kept for subsequent analysis
+NOTE: Pm2a is identical to Pm2d but kept for subsequent analysis
+NOTE: Pm2g is identical to Pm2f but kept for subsequent analysis
+NOTE: Rpi-amr3-2300 is identical to Rpi-amr3 but kept for subsequent analysis
+NOTE: Pi35 is identical to Pish but kept for subsequent analysis
+NOTE: WA08_paired_TRINITY_DN23_c0_g1_i2_p1 is identical to WA02_paired_TRINITY_DN15078_c0_g1_i2_p1 but kept for subsequent analysis
+NOTE: WA08_paired_TRINITY_DN73577_c0_g1_i1_p1 is identical to WA02_paired_TRINITY_DN87036_c0_g1_i1_p1 but kept for subsequent analysis
+NOTE: WA08_paired_TRINITY_DN50426_c0_g4_i1_p1 is identical to WA02_paired_TRINITY_DN37677_c0_g1_i2_p1 but kept for subsequent analysis
+NOTE: WA13_paired_TRINITY_DN232_c0_g1_i5_p1 is identical to WA13_paired_TRINITY_DN232_c0_g1_i6_p1 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Pik-h1 (identical to Pi7-J-1) is ignored but added at the end
+Alignment was printed to auto_mafft_curated_nbarc.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to auto_mafft_curated_nbarc.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.242 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -102606.600
+Optimal log-likelihood: -102606.287
+Proportion of invariable sites: 0.000
+Gamma shape alpha: 1.456
+Parameters optimization took 1 rounds (0.768 sec)
+Time for fast ML tree search: 10.940 seconds
+
+NOTE: ModelFinder requires 109 MB RAM!
+ModelFinder will test up to 168 protein models (sample size: 236) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            106617.253   1375 215984.507   3999984.507  220747.275
+  2  LG+I          106617.250   1376 215986.499   4005490.499  220752.732
+  3  LG+G4         102606.270   1376 207964.540   3997468.540  212730.773
+  4  LG+I+G4       102606.270   1377 207966.540   4002978.540  212736.236
+  7  LG+F+G4       102523.243   1395 207836.486   4102676.486  212668.531
+  8  LG+F+I+G4     102523.242   1396 207838.483   4108262.483  212673.993
+ 11  WAG+G4        102683.943   1376 208119.887   3997623.887  212886.120
+ 12  WAG+I+G4      102683.943   1377 208121.886   4003133.886  212891.583
+ 15  WAG+F+G4      102266.632   1395 207323.265   4102163.265  212155.310
+ 16  WAG+F+I+G4    102266.636   1396 207325.272   4107749.272  212160.781
+ 19  JTT+G4        102299.676   1376 207351.351   3996855.351  212117.584
+ 20  JTT+I+G4      102299.663   1377 207353.327   4002365.327  212123.023
+ 23  JTT+F+G4      101884.911   1395 206559.821   4101399.821  211391.867
+ 24  JTT+F+I+G4    101884.911   1396 206561.821   4106985.821  211397.331
+ 27  JTTDCMut+G4   102337.333   1376 207426.666   3996930.666  212192.898
+ 28  JTTDCMut+I+G4 102337.346   1377 207428.692   4002440.692  212198.389
+ 31  JTTDCMut+F+G4 101919.380   1395 206628.760   4101468.760  211460.806
+ 32  JTTDCMut+F+I+G4 101919.381   1396 206630.761   4107054.761  211466.270
+ 35  DCMut+G4      104718.405   1376 212188.809   4001692.809  216955.042
+ 36  DCMut+I+G4    104718.403   1377 212190.805   4007202.805  216960.501
+ 39  DCMut+F+G4    103827.655   1395 210445.310   4105285.310  215277.356
+ 40  DCMut+F+I+G4  103827.655   1396 210447.310   4110871.310  215282.819
+ 43  VT+G4         102905.350   1376 208562.699   3998066.699  213328.932
+ 44  VT+I+G4       102905.387   1377 208564.773   4003576.773  213334.470
+ 47  VT+F+G4       102646.566   1395 208083.131   4102923.131  212915.177
+ 48  VT+F+I+G4     102646.567   1396 208085.134   4108509.134  212920.643
+ 51  PMB+G4        103856.087   1376 210464.174   3999968.174  215230.406
+ 52  PMB+I+G4      103856.089   1377 210466.179   4005478.179  215235.875
+ 55  PMB+F+G4      103947.981   1395 210685.961   4105525.961  215518.006
+ 56  PMB+F+I+G4    103947.980   1396 210687.961   4111111.961  215523.470
+ 59  Blosum62+G4   103891.005   1376 210534.010   4000038.010  215300.243
+ 60  Blosum62+I+G4 103891.005   1377 210536.011   4005548.011  215305.707
+ 63  Blosum62+F+G4 104030.197   1395 210850.394   4105690.394  215682.439
+ 64  Blosum62+F+I+G4 104030.192   1396 210852.385   4111276.385  215687.894
+ 67  Dayhoff+G4    104717.433   1376 212186.867   4001690.867  216953.099
+ 68  Dayhoff+I+G4  104717.431   1377 212188.863   4007200.863  216958.559
+ 71  Dayhoff+F+G4  103826.273   1395 210442.546   4105282.546  215274.592
+ 72  Dayhoff+F+I+G4 103826.273   1396 210444.545   4110868.545  215280.054
+ 75  mtREV+G4      108202.883   1376 219157.766   4008661.766  223923.999
+ 76  mtREV+I+G4    108202.883   1377 219159.766   4014171.766  223929.463
+ 79  mtREV+F+G4    103722.579   1395 210235.158   4105075.158  215067.203
+ 80  mtREV+F+I+G4  103722.614   1396 210237.228   4110661.228  215072.738
+ 83  mtART+G4      110900.650   1376 224553.300   4014057.300  229319.532
+ 84  mtART+I+G4    110900.650   1377 224555.300   4019567.300  229324.996
+ 87  mtART+F+G4    107094.079   1395 216978.158   4111818.158  221810.203
+ 88  mtART+F+I+G4  107094.091   1396 216980.182   4117404.182  221815.691
+ 91  mtZOA+G4      107406.679   1376 217565.359   4007069.359  222331.592
+ 92  mtZOA+I+G4    107406.677   1377 217567.355   4012579.355  222337.051
+ 95  mtZOA+F+G4    104694.653   1395 212179.305   4107019.305  217011.351
+ 96  mtZOA+F+I+G4  104694.653   1396 212181.305   4112605.305  217016.815
+ 99  mtMet+G4      107010.958   1376 216773.916   4006277.916  221540.149
+100  mtMet+I+G4    107010.958   1377 216775.917   4011787.917  221545.613
+103  mtMet+F+G4    103331.146   1395 209452.292   4104292.292  214284.337
+104  mtMet+F+I+G4  103331.146   1396 209454.292   4109878.292  214289.801
+107  mtVer+G4      108010.782   1376 218773.564   4008277.564  223539.796
+108  mtVer+I+G4    108010.782   1377 218775.564   4013787.564  223545.260
+111  mtVer+F+G4    104122.033   1395 211034.065   4105874.065  215866.110
+112  mtVer+F+I+G4  104122.033   1396 211036.065   4111460.065  215871.575
+115  mtInv+G4      107499.367   1376 217750.734   4007254.734  222516.966
+116  mtInv+I+G4    107499.375   1377 217752.750   4012764.750  222522.446
+119  mtInv+F+G4    103223.610   1395 209237.219   4104077.219  214069.265
+120  mtInv+F+I+G4  103223.613   1396 209239.226   4109663.226  214074.735
+123  mtMAM+G4      110255.287   1376 223262.574   4012766.574  228028.806
+124  mtMAM+I+G4    110255.287   1377 223264.574   4018276.574  228034.270
+127  mtMAM+F+G4    105885.492   1395 214560.984   4109400.984  219393.030
+128  mtMAM+F+I+G4  105934.314   1396 214660.628   4115084.628  219496.137
+131  HIVb+G4       103278.587   1376 209309.175   3998813.175  214075.407
+132  HIVb+I+G4     103278.589   1377 209311.179   4004323.179  214080.875
+135  HIVb+F+G4     102845.953   1395 208481.906   4103321.906  213313.951
+136  HIVb+F+I+G4   102845.953   1396 208483.905   4108907.905  213319.414
+139  HIVw+G4       106978.291   1376 216708.582   4006212.582  221474.814
+140  HIVw+I+G4     106978.339   1377 216710.679   4011722.679  221480.375
+143  HIVw+F+G4     105253.134   1395 213296.267   4108136.267  218128.313
+144  HIVw+F+I+G4   105253.137   1396 213298.275   4113722.275  218133.784
+147  FLU+G4        104073.055   1376 210898.110   4000402.110  215664.342
+148  FLU+I+G4      104073.053   1377 210900.107   4005912.107  215669.803
+151  FLU+F+G4      103834.703   1395 210459.407   4105299.407  215291.452
+152  FLU+F+I+G4    103834.704   1396 210461.408   4110885.408  215296.917
+155  rtREV+G4      104327.339   1376 211406.678   4000910.678  216172.910
+156  rtREV+I+G4    104327.339   1377 211408.678   4006420.678  216178.374
+159  rtREV+F+G4    103724.807   1395 210239.614   4105079.614  215071.659
+160  rtREV+F+I+G4  103744.279   1396 210280.558   4110704.558  215116.067
+163  cpREV+G4      102670.653   1376 208093.306   3997597.306  212859.539
+164  cpREV+I+G4    102670.655   1377 208095.310   4003107.310  212865.006
+167  cpREV+F+G4    102640.478   1395 208070.956   4102910.956  212903.002
+168  cpREV+F+I+G4  102640.491   1396 208072.982   4108496.982  212908.491
+Akaike Information Criterion:           JTT+F+G4
+Corrected Akaike Information Criterion: JTT+G4
+Bayesian Information Criterion:         JTT+F+G4
+Best-fit model: JTT+F+G4 chosen according to BIC
+
+All model information printed to auto_mafft_curated_nbarc.fasta.model.gz
+CPU time for ModelFinder: 312.851 seconds (0h:5m:12s)
+Wall-clock time for ModelFinder: 313.663 seconds (0h:5m:13s)
+Generating 1000 samples for ultrafast bootstrap (seed: 508031)...
+
+NOTE: 109 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -101884.911
+Optimal log-likelihood: -101884.910
+Gamma shape alpha: 1.535
+Parameters optimization took 1 rounds (0.641 sec)
+Computing ML distances based on estimated model parameters... 37.488 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.523 seconds
+Log-likelihood of BIONJ tree: -102916.759
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 23.407 second
+Computing log-likelihood of 98 initial trees ... 23.686 seconds
+Current best score: -101884.910
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -101801.245
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -101744.287
+Iteration 10 / LogL: -101773.596 / Time: 0h:2m:32s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -101740.346
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -101730.735
+Iteration 20 / LogL: -101799.305 / Time: 0h:3m:41s
+Finish initializing candidate tree set (20)
+Current best tree score: -101730.735 / CPU time: 180.828
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -101725.386
+Iteration 30 / LogL: -101790.476 / Time: 0h:4m:47s (0h:15m:22s left)
+Iteration 40 / LogL: -101727.195 / Time: 0h:5m:48s (0h:12m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -101720.577
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -101716.317
+Iteration 50 / LogL: -101868.416 / Time: 0h:6m:52s (0h:13m:19s left)
+Log-likelihood cutoff on original alignment: -101837.577
+Iteration 60 / LogL: -101721.560 / Time: 0h:7m:56s (0h:11m:27s left)
+Iteration 70 / LogL: -101718.836 / Time: 0h:9m:0s (0h:9m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 73: -101715.291
+Iteration 80 / LogL: -101727.894 / Time: 0h:10m:0s (0h:11m:46s left)
+Iteration 90 / LogL: -101767.427 / Time: 0h:11m:0s (0h:10m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 91: -101708.325
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 98: -101707.101
+Iteration 100 / LogL: -101737.177 / Time: 0h:12m:3s (0h:11m:56s left)
+Log-likelihood cutoff on original alignment: -101837.577
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 106: -101706.749
+Iteration 110 / LogL: -101719.674 / Time: 0h:13m:5s (0h:11m:31s left)
+Iteration 120 / LogL: -101709.376 / Time: 0h:14m:6s (0h:10m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 122: -101703.758
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 126: -101696.612
+Iteration 130 / LogL: -101739.013 / Time: 0h:15m:9s (0h:11m:16s left)
+Iteration 140 / LogL: -101715.973 / Time: 0h:16m:13s (0h:10m:2s left)
+Iteration 150 / LogL: -101724.598 / Time: 0h:17m:14s (0h:8m:47s left)
+Log-likelihood cutoff on original alignment: -101837.577
+Iteration 160 / LogL: -101718.206 / Time: 0h:18m:18s (0h:7m:36s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 168: -101695.469
+Iteration 170 / LogL: -101704.609 / Time: 0h:19m:23s (0h:11m:14s left)
+Iteration 180 / LogL: -101704.554 / Time: 0h:20m:25s (0h:10m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 190: -101691.964
+Iteration 190 / LogL: -101691.964 / Time: 0h:21m:29s (0h:11m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 197: -101691.819
+Iteration 200 / LogL: -101706.797 / Time: 0h:22m:31s (0h:10m:58s left)
+Log-likelihood cutoff on original alignment: -101816.323
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.987
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -101806.735 / Time: 0h:23m:35s (0h:10m:9s left)
+Iteration 220 / LogL: -101702.750 / Time: 0h:24m:37s (0h:8m:59s left)
+Iteration 230 / LogL: -101726.671 / Time: 0h:25m:41s (0h:7m:51s left)
+Iteration 240 / LogL: -101724.723 / Time: 0h:26m:47s (0h:6m:43s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 249: -101689.325
+Iteration 250 / LogL: -101766.930 / Time: 0h:27m:49s (0h:11m:3s left)
+Log-likelihood cutoff on original alignment: -101816.323
+Iteration 260 / LogL: -101782.827 / Time: 0h:28m:53s (0h:9m:55s left)
+Iteration 270 / LogL: -101773.819 / Time: 0h:29m:57s (0h:8m:47s left)
+Iteration 280 / LogL: -101766.008 / Time: 0h:31m:0s (0h:7m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 283: -101688.239
+Iteration 290 / LogL: -101869.345 / Time: 0h:32m:1s (0h:10m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 297: -101687.545
+Iteration 300 / LogL: -101825.245 / Time: 0h:33m:4s (0h:10m:43s left)
+Log-likelihood cutoff on original alignment: -101816.323
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+Iteration 310 / LogL: -101795.449 / Time: 0h:34m:8s (0h:9m:56s left)
+Iteration 320 / LogL: -101771.529 / Time: 0h:35m:10s (0h:8m:49s left)
+Iteration 330 / LogL: -101704.219 / Time: 0h:36m:15s (0h:7m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 333: -101686.610
+Iteration 340 / LogL: -101697.541 / Time: 0h:37m:16s (0h:10m:13s left)
+Iteration 350 / LogL: -101690.690 / Time: 0h:38m:17s (0h:9m:6s left)
+Log-likelihood cutoff on original alignment: -101816.323
+Iteration 360 / LogL: -101701.861 / Time: 0h:39m:23s (0h:8m:0s left)
+Iteration 370 / LogL: -101757.604 / Time: 0h:40m:26s (0h:6m:54s left)
+Iteration 380 / LogL: -101693.880 / Time: 0h:41m:27s (0h:5m:47s left)
+Iteration 390 / LogL: -101709.331 / Time: 0h:42m:31s (0h:4m:42s left)
+Iteration 400 / LogL: -101693.613 / Time: 0h:43m:36s (0h:3m:36s left)
+Log-likelihood cutoff on original alignment: -101816.323
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 410 / LogL: -101773.977 / Time: 0h:44m:40s (0h:9m:49s left)
+Iteration 420 / LogL: -101701.929 / Time: 0h:45m:44s (0h:8m:44s left)
+Iteration 430 / LogL: -101718.154 / Time: 0h:46m:45s (0h:7m:37s left)
+TREE SEARCH COMPLETED AFTER 434 ITERATIONS / Time: 0h:47m:11s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -101686.610
+Optimal log-likelihood: -101686.610
+Gamma shape alpha: 1.550
+Parameters optimization took 1 rounds (0.647 sec)
+BEST SCORE FOUND : -101686.610
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -101686.035 > -101686.610
+Alternative NNI shows better log-likelihood -101686.449 > -101686.610
+Alternative NNI shows better log-likelihood -101686.299 > -101686.610
+Alternative NNI shows better log-likelihood -101686.581 > -101686.610
+Alternative NNI shows better log-likelihood -101686.567 > -101686.610
+2.501 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file auto_mafft_curated_nbarc.fasta.splits.nex
+Total tree length: 157.834
+
+Total number of iterations: 434
+CPU time used for tree search: 2786.388 sec (0h:46m:26s)
+Wall-clock time used for tree search: 2790.682 sec (0h:46m:30s)
+Total CPU time used: 2831.751 sec (0h:47m:11s)
+Total wall-clock time used: 2836.178 sec (0h:47m:16s)
+
+Computing bootstrap consensus tree...
+Reading input file auto_mafft_curated_nbarc.fasta.splits.nex...
+689 taxa and 2928 splits.
+Consensus tree written to auto_mafft_curated_nbarc.fasta.contree
+Reading input trees file auto_mafft_curated_nbarc.fasta.contree
+Log-likelihood of consensus tree: -101686.581
+
+Analysis results written to: 
+  IQ-TREE report:                auto_mafft_curated_nbarc.fasta.iqtree
+  Maximum-likelihood tree:       auto_mafft_curated_nbarc.fasta.treefile
+  Likelihood distances:          auto_mafft_curated_nbarc.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          auto_mafft_curated_nbarc.fasta.splits.nex
+  Consensus tree:                auto_mafft_curated_nbarc.fasta.contree
+  Screen log file:               auto_mafft_curated_nbarc.fasta.log
+
+Date and Time: Fri Jul 26 12:49:21 2024
